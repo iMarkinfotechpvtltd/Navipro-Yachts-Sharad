@@ -1,0 +1,5927 @@
+@font-face {
+    font-family: 'FuturaBT-Light';
+    src: url('../fonts/Futura/FuturaBT/FuturaBT-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura/FuturaBT/FuturaBT-Light.woff') format('woff'), url('../fonts/Futura/FuturaBT/FuturaBT-Light.ttf') format('truetype'), url('../fonts/Futura/FuturaBT/FuturaBT-Light.svg#FuturaBT-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ltbook';
+    src: url('../fonts/Futura/futura_lt_book/futura_lt_book-webfont.eot');
+    src: url('../fonts/Futura/futura_lt_book/futura_lt_book-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura/futura_lt_book/futura_lt_book-webfont.woff2') format('woff2'), url('../fonts/Futura/futura_lt_book/futura_lt_book-webfont.woff') format('woff'), url('../fonts/Futura/futura_lt_book/futura_lt_book-webfont.ttf') format('truetype'), url('../fonts/Futura/futura_lt_book/futura_lt_book-webfont.svg#futura_ltbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaBT-Medium';
+    src: url('.../fonts/Futura/FuturaBT/FuturaBT-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura/FuturaBT/FuturaBT-Medium.woff') format('woff'), url('../fonts/Futura/FuturaBT/FuturaBT-Medium.ttf') format('truetype'), url('../fonts/Futura/FuturaBT/FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_hv_btheavy';
+    src: url('../fonts/Futura/futura-hv-bt/futurah-webfont.eot');
+    src: url('../fonts/Futura/futura-hv-bt/futurah-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura/futura-hv-bt/futurah-webfont.woff2') format('woff2'), url('../fonts/Futura/futura-hv-bt/futurah-webfont.woff') format('woff'), url('../fonts/Futura/futura-hv-bt/futurah-webfont.ttf') format('truetype'), url('../fonts/Futura/futura-hv-bt/futurah-webfont.svg#futura_hv_btheavy') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AmazoneBT-Regular';
+    src: url('../fonts/Amazone/AmazoneBT-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Amazone/AmazoneBT-Regular.woff') format('woff'), url('../fonts/Amazone/AmazoneBT-Regular.ttf') format('truetype'), url('../fonts/Amazone/AmazoneBT-Regular.svg#AmazoneBT-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FuturaBT-LightItalic';
+    src: url('../fonts/Futura/FuturaBT-LightItalic/FuturaBT-LightItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura/FuturaBT-LightItalic/FuturaBT-LightItalic.woff') format('woff'), url('../fonts/Futura/FuturaBT-LightItalic/FuturaBT-LightItalic.ttf') format('truetype'), url('../fonts/Futura/FuturaBT-LightItalic/FuturaBT-LightItalic.svg#FuturaBT-LightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamMedium-Regular';
+    src: url('../fonts/gotham/GothamMedium_gdi.eot');
+    src: url('../fonts/gotham/GothamMedium_gdi.eot?#iefix') format('embedded-opentype'), url('../fonts/gotham/GothamMedium_gdi.woff') format('woff'), url('../fonts/gotham/GothamMedium_gdi.ttf') format('truetype'), url('../fonts/gotham/GothamMedium_gdi.otf') format('opentype'), url('../fonts/gotham/GothamMedium_gdi.svg#GothamMedium-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2248;
+}@font-face {
+  font-family: 'GothamLight';
+  src: url('../fonts/GothamLight.eot?#iefix') format('embedded-opentype'),  url('../fonts/GothamLight.woff') format('woff'), url('../fonts/GothamLight.ttf')  format('truetype'), url('../fonts/GothamLight.svg#GothamLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GoudyOldStyleT-Regular';
+  src: url('../fonts/GoudyOldStyleT-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/GoudyOldStyleT-Regular.woff') format('woff'), url('../fonts/GoudyOldStyleT-Regular.ttf')  format('truetype'), url('../fonts/GoudyOldStyleT-Regular.svg#GoudyOldStyleT-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none !important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body:before,
+body:after {
+    content: none !important;
+}
+
+::i-block-chrome,
+body {
+    -webkit-text-stroke: .1px
+}
+
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+span,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+}
+
+label {
+    font-weight: normal;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+
+a {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    color: #0990d6;
+}
+
+input:focus,
+select:focus {
+    box-shadow: none;
+}
+
+-webkit-overflow-scrolling: touch;
+select::-ms-expand {
+    display: none;
+}
+/*****  Main CSS  *****/
+
+.display-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.display-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container .container {
+    width: auto;
+    padding: 0;
+}
+/**** Home Navigation Start ****/
+
+.preloader {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999999;
+}
+
+.preloader > i {
+    display: inline-block;
+    font-size: 36px;
+    height: 36px;
+    left: 50%;
+    line-height: 36px;
+    margin-left: -15px;
+    margin-top: -15px;
+    position: absolute;
+    top: 50%;
+    width: 36px;
+    color: #006cff;
+}
+
+#mainNav {
+    padding-top: 41px;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+#mainNav.navbar-default {
+    border: 0px;
+    background: transparent;
+}
+
+#mainNav .navbar {
+    min-height: 0;
+    margin-bottom: 0;
+}
+
+#mainNav .navbar-brand {
+    height: auto;
+    line-height: 0;
+    padding: 0 15px;
+}
+
+#mainNav .navigation {
+    float: none;
+    text-align: center;
+    margin-left: 0;
+    padding-top: 11px;
+}
+
+#mainNav .navigation li {
+    list-style: none;
+    float: none;
+    font-family: 'FuturaBT-Light';
+    display: inline-block;
+    margin-right: 38px;
+    text-transform: uppercase;
+}
+
+#mainNav .navigation li:last-child {
+    margin-right: 0;
+}
+
+#mainNav .navigation li a {
+    font-size: 13px;
+    color: #fff;
+    padding: 0;
+}
+
+#mainNav .navigation li.current-menu-item a,
+#mainNav .navigation li a:hover,
+#mainNav .navigation li a:focus {
+    color: #1e8aea;
+}
+
+#mainNav .navigation li i {
+    margin-right: 10px;
+}
+
+#mainNav.affix {
+    background-color: #20314b;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#mainNav.affix .navigation {
+    padding-top: 14px;
+}
+
+.logo {
+    float: left;
+}
+
+#mainNav.affix .logo {
+    width: 130px;
+}
+
+.header_cntnt {
+    float: left;
+}
+
+.header_contact {
+    float: right;
+}
+
+.header_contact p {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'FuturaBT-Light';
+}
+
+.header_contact p a {
+    color: #fff;
+}
+
+.header_contact p a:hover,
+.header_contact p a:focus {
+    color: #3370a6;
+}
+
+.header_contact i {
+    color: #ffffff;
+    float: left;
+    font-size: 18px;
+    padding-top: 15px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    margin-right: 8px;
+}
+
+.header_contact p span {
+    font-family: 'futura_ltbook';
+}
+/**** Banner Section ****/
+
+.banner {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.banner .carousel-indicators .active {
+    background: #0052f8;
+    border-color: #0052f8;
+}
+
+.home_caption {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.banner h2 {
+    color: #fff;
+    font-size: 134px;
+    font-family: 'futura_hv_btheavy';
+    text-transform: uppercase;
+    line-height: 97px;
+    position: relative;
+    z-index: 2;
+}
+
+::i-block-chrome,
+.banner h2 {
+    line-height: 109px;
+}
+
+.banner h2 span.blue {
+    color: #0052f8;
+    font-size: 180px;
+    line-height: 27px;
+    vertical-align: top;
+}
+
+.banner h4 {
+    font-family: 'AmazoneBT-Regular';
+    color: #fff;
+    font-size: 92px;
+    line-height: 92px;
+    text-align: left;
+    padding-left: 64px;
+    margin-top: -65px;
+    width: auto;
+    float: left;
+    position: relative;
+}
+
+.banner h4 bold {
+    left: 100%;
+    margin-left: -16px;
+    position: absolute;
+    top: 44px;
+}
+
+.banner_innr {
+    margin: auto;
+    width: 813px;
+    position: relative;
+}
+
+.banner_innr a.read_more {
+    color: #ffffff;
+    float: right;
+    font-family: "futura_hv_btheavy";
+    font-size: 15px;
+    position: relative;
+    right: 2px;
+    text-align: right;
+    top: -25px;
+}
+
+.banner_innr a.read_more:before {
+    background: #ffffff none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    position: absolute;
+    /*right: 94px;*/
+    
+    right: 0;
+    top: 44%;
+    width: 128px;display:none;
+}
+
+.banner_innr a.read_more:hover,
+.banner_innr a.read_more:focus {
+    color: #3370a6;
+}
+/**** Sail Range Section ****/
+
+.sail_range {
+    float: left;
+    width: 100%;
+}
+
+.sail_range_innr {
+    width: 100%;
+    float: left;
+}
+
+.sail_range_innr h2 span.sail_blk {
+    bottom: 60px;
+    color: #222222;
+    font-family: "futura_hv_btheavy";
+    font-size: 42px;
+    position: absolute;
+    right: 89%;
+    text-transform: capitalize;
+    text-align: right;
+    width: 100%;
+}
+
+.sail_range_innr h2 {
+    color: #ebebeb;
+    font-family: "AmazoneBT-Regular";
+    font-size: 170px;
+    position: relative;
+    float: right;
+    text-transform: none;
+    width: auto;
+    margin-right: 3px;
+}
+
+.sail_range_innr ul {
+    margin-top: 33px;
+    width: 100%;
+    float: left;
+}
+
+.sail_range_innr ul li {
+    float: left;
+    display: inline;
+    margin-right: 2%;
+    width: 32%;
+    margin-top: 48px;
+}
+
+.sail_range_innr ul li:first-child,
+.sail_range_innr ul li:nth-child(2),
+.sail_range_innr ul li:nth-child(3) {
+    margin-top: 0;
+}
+
+.sail_range_innr ul li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.sail_range_innr .sail_range_img {
+    margin-bottom: 40px;
+    float: left;
+    width: 100%;
+}
+
+.sail_range_innr .sail_range_list h3 {
+    font-size: 17px;
+    color: #000000;
+    text-transform: uppercase;
+    font-family: "futura_hv_btheavy";
+    line-height: 19px;
+    float: left;
+    width: 100%;
+    margin-bottom: 13px;
+    max-height: 38px;
+    min-height: 38px;
+    overflow: hidden;
+}
+
+.sail_range_innr .sail_range_list h3 a {
+    color: #000;
+}
+
+.sail_range_innr .sail_range_list h3 a:hover {
+    color: #c59865;
+}
+
+.sail_range_innr .sail_range_list p {
+    font-size: 15px;
+    color: #555555;
+    font-family: 'futura_ltbook';
+    line-height: 22px;
+    margin-bottom: 30px;
+    float: left;
+    min-height: 44px;
+    max-height: 44px;
+}
+
+.sail_range_innr .sail_range_list a img {
+    width: 100%;
+    max-height: 298px;
+}
+
+.sail_range_innr ul li:hover .sail_range_list a img {
+    opacity: 0.5;
+}
+
+.info_req,
+.quote_req {
+    color: #c59865;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: "futura_hv_btheavy";
+    float: left;
+    padding: 14px 20px;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    line-height: 17px;
+}
+
+.quote_req {
+    color: #8a8a8a;
+    float: right;
+}
+
+.info_req:hover,
+.info_req:focus,
+.quote_req:hover,
+.quote_req:focus {
+    background: rgb(0, 108, 255);
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, rgba(0, 108, 255, 1) 0%, rgba(0, 60, 255, 1) 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(top, rgba(0, 108, 255, 1) 0%, rgba(0, 60, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(to bottom, rgba(0, 108, 255, 1) 0%, rgba(0, 60, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#006cff', endColorstr='#003cff', GradientType=0);
+    color: #fff;
+    /* IE6-9 */
+}
+/**** Power Range Section ****/
+
+.power_range {
+    margin-top: 30px;
+}
+
+.power_range_innr h2 span.sail_blk {
+    right: 65%;
+    bottom: 58px;
+}
+
+.power_range_img {
+    margin-bottom: 12px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.power_range_img > a > img {
+    width: 100%;
+}
+
+.see_more {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'FuturaBT-Light';
+    margin-bottom: 44px;
+    float: left;
+}
+
+.see+more:hover,
+.see+more:focus {
+    color: #0990d6;
+}
+
+.power_range_innr ul li {
+    width: 23.37%;
+}
+
+.power_range_innr ul li:nth-child(4) {
+    margin-top: 0;
+}
+
+.power_range_innr ul li:nth-child(3n) {
+    margin-right: 36px;
+}
+
+.power_range_innr ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.power_range_img > img {
+    width: 100%;
+}
+
+.power_range_innr .power_range_list h3 {
+    color: #000000;
+    float: left;
+    font-family: "futura_hv_btheavy";
+    font-size: 20px;
+    line-height: 19px;
+    margin-bottom: 13px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.power_range_innr .power_range_list h3 a {
+    color: #000000;
+}
+
+.power_range_innr .power_range_list h3 a:hover {
+    color: #c59865;
+}
+
+.power_range_innr .power_range_list p {
+    font-size: 15px;
+    color: #555555;
+    font-family: 'futura_ltbook';
+    line-height: 21px;
+    float: left;
+}
+
+.power_range_overlay > img {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.power_range_img:hover .power_range_overlay {
+    opacity: 1;
+}
+
+.power_range_overlay {
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.power_range_overlay a {
+    color: #ffffff;
+    display: inline-block;
+    font-family: "FuturaBT-Light";
+    font-size: 18px;
+    width: 100%;
+}
+/**** News Section ****/
+
+.sail_range.news_sec {
+    margin-top: 47px;
+    text-align: center;
+    margin-bottom: 96px;
+}
+
+.news_sec_innr h2 {
+    text-align: center;
+    width: auto;
+    margin-right: 0;
+    float: none;
+    display: inline-block;
+}
+
+.news_sec_innr h2 span.sail_blk {
+    left: auto;
+    padding-left: 13px;
+    right: auto;
+    text-align: left;
+}
+
+.owl-carousel .owl-wrapper:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+/* display none until init */
+
+.owl-buttons {
+    margin-top: 75px;
+}
+
+.owl-carousel {
+    display: none;
+    position: relative;
+    width: 100%;
+    -ms-touch-action: pan-y;
+    padding: 0 0px;
+}
+
+.owl-prev {
+    left: 13px;
+    position: absolute !important;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.owl-next {
+    right: 18px;
+    position: absolute !important;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.owl-carousel .owl-wrapper {
+    display: none;
+    position: relative;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.owl-carousel .owl-wrapper-outer.autoHeight {
+    -webkit-transition: height 500ms ease-in-out;
+    -moz-transition: height 500ms ease-in-out;
+    -ms-transition: height 500ms ease-in-out;
+    -o-transition: height 500ms ease-in-out;
+    transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item {
+    float: left;
+}
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+    cursor: pointer;
+}
+
+.owl-controls {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.owl-prev,
+.owl-next {
+    position: relative;
+    font-size: 0;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #c1c1c1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    background: #96c6f1;
+    border-color: #96c6f1;
+}
+
+.owl-prev:hover:before,
+.owl-next:hover:before {
+    color: #fff;
+}
+
+.owl-prev::before {
+    color: #4c4c4c;
+    content: '\f0d9';
+    font-family: "FontAwesome";
+    font-size: 30px;
+    left: 0;
+    line-height: 42px;
+    margin-bottom: 0 !important;
+    margin-left: 16px;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    opacity: 1;
+    padding: 0 !important;
+    position: absolute;
+    text-align: center;
+    text-shadow: none;
+}
+
+.owl-next::before {
+    color: #4c4c4c;
+    content: '\f0da';
+    font-family: "FontAwesome";
+    font-size: 30px;
+    left: 0;
+    line-height: 42px;
+    margin-bottom: 0 !important;
+    margin-left: 19px;
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+    opacity: 1;
+    padding: 0 !important;
+    position: absolute;
+    text-align: center;
+    text-shadow: none;
+}
+/* mouse grab icon */
+
+.grabbing {
+    cursor: url(grabbing.png) 8 8, move;
+}
+/* fix */
+
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+}
+
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    text-align: center;
+}
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div {
+    color: #FFF;
+    display: inline-block;
+    font-size: 38px;
+    color: #f37321;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+    filter: Alpha(Opacity=100);
+    /*IE7 fix*/
+    
+    opacity: 1;
+    text-decoration: none;
+}
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    /*IE7 life-saver */
+}
+
+.owl-theme .owl-controls .owl-page span {
+    display: block;
+    width: 7px;
+    height: 7px;
+    margin: 0 10px 0 0;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #bebebe;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background: #f37321;
+}
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+    height: auto;
+    width: auto;
+    color: #FFF;
+    padding: 2px 10px;
+    font-size: 12px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.owl-item .item {
+    margin: auto;
+    padding: 0 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.owl-prev,
+.owl-next {
+    font-size: 0 !important;
+}
+
+.owl-pagination {
+    display: none;
+}
+
+.news_slider {
+    position: relative;
+}
+
+.news_slider > img {
+    margin-top: 60px;
+    padding-left: 60px;
+}
+
+.news_outer_bx {
+    width: 360px;
+    height: 486px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: rgba(2545, 255, 255, .8);
+    padding: 13px;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(175, 175, 175, 0.4);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(175, 175, 175, 0.4);
+    box-shadow: 0px 0px 4px 0px rgba(175, 175, 175, 0.4);
+    text-align: left;
+}
+
+.news_innr_bx {
+    border: 2px solid #ebebeb;
+    background: rgba(2545, 255, 255, .9);
+    float: left;
+    width: 100%;
+    height: 100%;
+    min-height: 457px;
+    padding: 30px 18px;
+}
+
+.news_innr_bx h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 100;
+    text-align: left;
+    color: #000;
+    margin-bottom: 24px;
+}
+
+.news_innr_bx h4 {
+    font-size: 16px;
+    color: #000;
+    line-height: 20px;
+    font-family: 'FuturaBT-LightItalic';
+    margin-bottom: 18px;
+}
+
+.news_innr_bx p {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'FuturaBT-Light';
+    line-height: 20px;
+}
+
+.news_innr_bx ul {
+    margin: 0;
+}
+
+.news_date {
+    font-size: 15px;
+    color: #000;
+    font-family: 'FuturaBT-Light';
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+
+.news_innr_bx ul li {
+    font-size: 14px;
+    color: #a7a7a7;
+    font-family: 'futura_hv_btheavy';
+    border-right: 1px solid #a7a7a7;
+    line-height: 14px;
+    margin-right: 25px;
+    padding-right: 27px;
+    width: auto;
+}
+
+.news_innr_bx ul li:last-child {
+    border: 0;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.news_innr_bx ul li a {
+    color: #a7a7a7;
+}
+
+.news_innr_bx ul li:hover a,
+.news_innr_bx ul li:focus a {
+    color: #000;
+}
+
+.see_more_btn {
+    color: #000;
+    font-size: 18px;
+    font-family: 'FuturaBT-Light';
+    text-transform: capitalize;
+    border: 1px solid #c4c4c4;
+    min-width: 176px;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    display: inline-block;
+    text-align: center;
+    padding: 9px;
+    margin-top: 10px;
+}
+
+.see_more_btn:hover,
+.see_more_btn:focus {
+    background: rgb(0, 108, 255);
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, rgba(0, 108, 255, 1) 0%, rgba(0, 60, 255, 1) 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(top, rgba(0, 108, 255, 1) 0%, rgba(0, 60, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(to bottom, rgba(0, 108, 255, 1) 0%, rgba(0, 60, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#006cff', endColorstr='#003cff', GradientType=0);
+    /* IE6-9 */
+    
+    -webkit-transition: all 0.4s ease-in-out;
+    border-color: #003dff;
+    color: #ffffff;
+}
+/**** Footer Section ****/
+
+footer {
+    background: url(../images/footer_bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    float: left;
+    padding: 57px 0;
+}
+
+.ftr_rght {
+    float: right;
+    width: 700px;
+    min-height: 581px;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 7px 89px;
+}
+
+.ftr_rght .hire_sec {
+    float: left;
+    padding-bottom: 50px;
+    position: relative;
+    width: 524px;
+}
+
+.ftr_rght .hire_sec h2 {
+    color: #d6d6e8;
+    float: left;
+    font-family: "AmazoneBT-Regular";
+    font-size: 132px;
+    position: relative;
+    text-align: left;
+    text-transform: none;
+    width: 100%;
+    padding-left: 187px;
+}
+
+.ftr_rght .hire_sec h2 span.hire_blk {
+    color: #222222;
+    font-family: "futura_hv_btheavy";
+    font-size: 41px;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    text-transform: capitalize;
+    top: 51px;
+    width: 100%;
+}
+
+.ftr_rght .hire_sec .hire_form {
+    margin-top: 38px;
+}
+
+.ftr_rght .hire_sec .hire_form input,
+.ftr_rght .hire_sec .hire_form textarea {
+    width: 524px;
+    height: 51px;
+    background: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border: 0;
+    color: #5b626c;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 0 50px;
+    margin-bottom: 16px;
+}
+
+.ftr_rght .hire_sec .hire_form input::-webkit-input-placeholder,
+.ftr_rght .hire_sec .hire_form textarea::-webkit-input-placeholder {
+    ;
+    color: #5b626c;
+}
+
+.ftr_rght .hire_sec .hire_form input::-moz-placeholder,
+.ftr_rght .hire_sec .hire_form textarea::-moz-placeholder {
+    ;
+    color: #5b626c;
+    opacity: 1;
+}
+
+.ftr_rght .hire_sec .hire_form p {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.ftr_rght .hire_sec .hire_form i {
+    color: #8e8e8e;
+    position: absolute;
+    text-indent: 25px;
+    font-size: 15px;
+    line-height: 51px;
+    left: 0;
+    z-index: 9;
+}
+
+.ftr_rght .hire_sec .hire_form textarea {
+    height: 108px;
+    padding: 15px 50px;
+    resize: none;
+}
+
+.ftr_rght .hire_sec .hire_form i.fa.fa-map-marker {
+    line-height: 0 !important;
+    padding-top: 26px;
+}
+
+.ftr_rght .hire_sec .hire_form a.hire_btn,
+.ftr_rght .hire_sec .hire_form input[type="submit"] {
+    color: #fff;
+    font-size: 15px;
+    font-family: "futura_hv_btheavy";
+    text-transform: uppercase;
+    width: 157px;
+    float: right;
+    padding: 15px;
+    background: rgb(0, 108, 255);
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, rgba(0, 108, 255, 1) 0%, rgba(0, 60, 255, 1) 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(top, rgba(0, 108, 255, 1) 0%, rgba(0, 60, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(to bottom, rgba(0, 108, 255, 1) 0%, rgba(0, 60, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#006cff', endColorstr='#003cff', GradientType=0);
+    /* IE6-9 */
+    
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    text-align: center;
+}
+
+.ftr_rght .hire_sec .hire_form a.hire_btn:hover,
+.ftr_rght .hire_sec .hire_form a.hire_btn:focus,
+.ftr_rght .hire_sec .hire_form input[type="submit"]:hover,
+.ftr_rght .hire_sec .hire_form input[type="submit"]:focus {
+    background: #3f8ee0;
+}
+
+.ftr_lft {
+    margin-top: 168px;
+    float: left;
+    width: 628px;
+}
+
+.ftr_adrs {
+    text-align: center;
+}
+
+.ftr_adrs p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'futura_ltbook';
+}
+
+.ftr_adrs p:first-child,
+.ftr_adrs p:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.ftr_adrs p a {
+    font-family: 'FuturaBT-Light';
+    color: #fff;
+}
+
+.ftr_adrs p a:hover {
+    color: #000;
+}
+
+.ftr_txt {
+    color: #fff;
+    font-family: 'futura_ltbook';
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.subscribe_form {
+    margin-top: 38px;
+}
+
+.subscribe_form label {
+    font-family: 'FuturaBT-LightItalic';
+    font-size: 14px;
+    color: #fff;
+    margin-right: 40px;
+    padding-left: 3px;
+    margin-bottom: 0;
+    margin-top: 26px;
+}
+
+.subscribe_form .input {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 0 30px 0 0;
+    max-width: 175px;
+    /*width: calc(100% - 2em);*/
+    
+    width: 175px;
+    vertical-align: top;
+}
+
+.input__field {
+    position: relative;
+    display: block;
+    float: right;
+    padding: 0.8em;
+    width: 60%;
+    border: none;
+    border-radius: 0;
+    font-family: 'FuturaBT-LightItalic';
+    font-size: 14px;
+    color: #fff;
+    -webkit-appearance: none;
+    /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
+    outline: none;
+}
+
+.input__label {
+    display: inline-block;
+    margin-bottom: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.input--hoshi {
+    overflow: hidden;
+}
+
+.input__field--hoshi {
+    padding: 4px 5px 4px;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    margin-top: 25px;
+    box-shadow: none !important;
+}
+
+.input__label--hoshi {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*height: calc(100% - 1em);	*/
+    
+    height: 76%;
+    text-align: left;
+    pointer-events: none;
+}
+
+.input__label-content--hoshi {
+    position: absolute;
+}
+
+.input__label--hoshi::before,
+.input__label--hoshi::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*height: calc(100% - 10px);	*/
+    
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.input__label--hoshi::after {
+    margin-top: 2px;
+    border-bottom: 4px solid #3370a6;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.input__label--hoshi-color-1::after {
+    border-color: #3370a6;
+}
+
+.input__field--hoshi:focus + .input__label--hoshi::after,
+.input--filled .input__label--hoshi::after {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.input__field--hoshi:focus + .input__label--hoshi .input__label-content--hoshi,
+.input--filled .input__label-content--hoshi {
+    -webkit-animation: anim-1 0.3s forwards;
+    animation: anim-1 0.3s forwards;
+}
+
+@-webkit-keyframes anim-1 {
+    50% {
+        opacity: 0;
+        -webkit-transform: translate3d(1em, 0, 0);
+        transform: translate3d(1em, 0, 0);
+    }
+    51% {
+        opacity: 0;
+        -webkit-transform: translate3d(-1em, -40%, 0);
+        transform: translate3d(-1em, -40%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -40%, 0);
+        transform: translate3d(0, -40%, 0);
+    }
+}
+
+@keyframes anim-1 {
+    50% {
+        opacity: 0;
+        -webkit-transform: translate3d(1em, 0, 0);
+        transform: translate3d(1em, 0, 0);
+    }
+    51% {
+        opacity: 0;
+        -webkit-transform: translate3d(-1em, -40%, 0);
+        transform: translate3d(-1em, -40%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0, -40%, 0);
+        transform: translate3d(0, -40%, 0);
+    }
+}
+
+.subscribe_form input[type="submit"] {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'FuturaBT-LightItalic';
+    border: 1px solid #fff;
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    background: transparent;
+    display: inline-block;
+    width: 107px;
+    padding: 7px 5px;
+    margin-top: 17px;
+}
+
+.subscribe_form input[type="submit"]:hover {
+    background: #3f8ee0;
+    border-color: #3f8ee0;
+}
+
+.footer_social {
+    margin-top: 70px;
+}
+
+.footer_social ul li {
+    list-style: none;
+    display: inline;
+    font-size: 17px;
+    margin-right: 75px;
+}
+
+.footer_social ul li:last-child {
+    margin-right: 0;
+    padding-right: 69px;
+    border-right: 4px solid #fff;
+}
+
+.footer_social ul li:first-child {
+    padding-left: 69px;
+    border-left: 4px solid #fff;
+}
+
+.footer_social ul li a {
+    color: #fff;
+}
+
+.footer_social ul li a:hover {
+    color: #3370a6;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes tada {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    10%,
+    20% {
+        -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    }
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes tada {
+    from {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    10%,
+    20% {
+        -webkit-transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(.9, .9, .9) rotate3d(0, 0, 1, -3deg);
+    }
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    }
+    40%,
+    60%,
+    80% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    }
+    to {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+.tada {
+    -webkit-animation-name: tada;
+    animation-name: tada;
+}
+
+.footer_social ul li a:hover i {
+    -webkit-animation: tada;
+    animation: tada;
+    -webkit-animation-name: tada;
+    -moz-animation-name: tada;
+    -o-animation-name: tada;
+    animation-name: tada;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.footer_nav {
+    margin-top: 48px;
+}
+
+.footer_nav ul li {
+    list-style: none;
+    display: inline;
+    font-size: 12px;
+    font-family: 'futura_hv_btheavy';
+    text-transform: uppercase;
+    margin-right: 33px;
+}
+
+.footer_nav ul li:last-child {
+    margin-right: 0;
+}
+
+.footer_nav ul li a {
+    color: #fff;
+}
+
+.footer_nav ul li a:hover,
+.footer_nav ul li.current-menu-item a {
+    color: #3370a6;
+}
+
+.ftr_lft p.copyright {
+    font-size: 12px;
+    font-family: 'futura_hv_btheavy';
+    text-transform: uppercase;
+    margin-top: 21px;width:auto;display:inline-block;
+}
+
+.hire_form p.loader {
+    position: relative;
+    float: right;
+}
+
+.hire_form .ajax-loader {
+    position: absolute;
+    right: 177px;
+    top: 17px;
+}
+
+.hire_form span.wpcf7-not-valid-tip {
+    display: none !important;
+}
+
+.ftr_rght .hire_sec .hire_form input.wpcf7-not-valid {
+    border: 1px solid red;
+}
+
+.hire_sec div.wpcf7-validation-errors {
+    bottom: 8px;
+    float: none;
+    display: inline-block !important;
+    position: absolute;
+    left: 0;
+}
+
+.hire_sec .wpcf7-mail-sent-ok {
+    bottom: 8px;
+    left: 0;
+    float: none;
+    display: inline-block !important;
+    position: absolute;
+}
+/**** Contact Page ****/
+
+.contact_banner {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.contact_innr {
+    width: 100%;
+    float: left;
+    padding-top: 60px;
+}
+
+.contact_form {
+    width: 100%;
+    float: left;
+    padding-bottom: 78px;
+}
+
+.cntct_frm {
+    width: 100%;
+    float: left;
+    background: #f9f9f9;
+    padding: 48px 123px;
+    margin-bottom: 64px;
+}
+
+.cntct_frm h3 {
+    font-size: 42px;
+    color: #303131;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'futura_hv_btheavy';
+    line-height: 37px;
+    margin-bottom: 65px;
+}
+
+.cntct_frm p label {
+    font-size: 15px;
+    color: #717171;
+    font-family: 'futura_ltbook';
+    margin-bottom: 17px;
+    width: 100%;
+}
+
+.cntct_frm p {
+    width: 584px;
+    float: left;
+    margin-bottom: 36px;
+}
+
+.cntct_frm p i {
+    width: 30px;
+    font-size: 21px;
+    vertical-align: bottom;
+}
+
+.cntct_frm input,
+.cntct_frm textarea {
+    width: 100%;
+    height: 51px;
+    border: 1px solid #d5d5d5;
+    background: transparent;
+    padding: 0 15px;
+}
+
+.cntct_frm textarea {
+    resize: none;
+    height: 110px;
+    padding: 15px;
+}
+
+.cntct_frm p:nth-child(2n+1) {
+    float: right;
+}
+
+.cntct_frm p.wdth_full1 {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.cntct_frm p.wdth_full {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.cntct_frm p.wdth_full1 .ajax-loader {
+    position: absolute;
+    right: 30px;
+    top: 16px;
+}
+
+.cntct_frm input[type="submit"] {
+    width: 100%;
+    color: #ffffff;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: 'futura_ltbook';
+    background: #006cff;
+    border: 1px solid #006cff;
+    height: auto;
+    padding: 12px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+}
+
+.cntct_frm input[type="submit"]:hover {
+    background: transparent;
+    color: #222222;
+}
+
+.cntct_map {
+    width: 100%;
+    height: 444px;
+    float: left;
+    text-align: center;
+}
+
+.cntct_map .acf-map {
+    height: 100%;
+    width: 1195px;
+    margin: auto;
+    border: 0;
+}
+
+.cntct_frm span.wpcf7-not-valid-tip {
+    display: none !important;
+}
+
+.cntct_frm input.wpcf7-not-valid {
+    border: 1px solid red;
+}
+
+div.wpcf7-validation-errors {
+    border: 2px solid #e5aaaa;
+    color: #d73434;
+    background: #e9c8c8;
+    float: left;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.wpcf7-mail-sent-ok {
+    background: #bfeebf none repeat scroll 0 0;
+    border: 2px solid #a1e1a1 !important;
+    color: #00b500;
+    display: block !important;
+    float: left;
+    margin: 0 !important;
+    text-align: center;
+    width: 100%;
+    font-size: 15px !important;
+    padding: 10px !important;
+}
+
+.mc4wp-success p {
+    background: #bfeebf !important;
+    border: 2px solid #a1e1a1;
+    color: #00b500;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 30px;
+    text-transform: none !important;
+}
+
+.mc4wp-notice p {
+    background: #bfeebf none repeat scroll 0 0;
+    border: 2px solid #a1e1a1 !important;
+    color: #00b500;
+    display: block !important;
+    float: left;
+    margin: 0 !important;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 30px;
+    text-transform: none !important;
+}
+
+.mc4wp-response {
+    margin-top: 30px;
+}
+
+.mc4wp-error p {
+    background: #ece2c5;
+    border: 2px solid #dfcd9b;
+    !important;
+    color: #9a5d00 !important;
+    display: block !important;
+    float: left;
+    margin: 0 !important;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 30px;
+    text-transform: none !important;
+}
+/**** Pwer Yachts Page ****/
+
+.power_yacht {
+    width: 100%;
+    float: left;
+    padding-top: 64px;
+    padding-bottom: 74px;
+}
+
+.power_yacht_innr h3,
+.team_innr h3 {
+    font-size: 42px;
+    color: #303131;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'futura_hv_btheavy';
+    line-height: 37px;
+    margin-bottom: 0px;
+}
+
+.yacht_sec {
+    width: 100%;
+    float: left;
+    border: 2px solid #e7e7e7;
+    margin-top: 61px;
+    padding: 44px;
+}
+
+.yacht_sec .table-responsive {
+    height: 986px;
+    overflow-y: scroll;
+    border: 1px solid #ebe8e8;
+}
+
+.yacht_sec table {
+    border: 1px solid #ebe8e8;
+    width: 1329px;
+}
+
+.yacht_sec table th:first-child {
+    width: 200px;
+}
+
+.yacht_sec table th {
+    width: 244px;
+    background: #006cff;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+    padding: 14px 22px;
+    font-family: 'futura_ltbook';
+    border-right: 1px solid #ebe8e8;
+    font-weight: normal;
+    height: 51px;
+}
+
+.yacht_sec table tbody tr td img {
+    width: 100%;
+}
+
+.yacht_sec table th:last-child {
+    width: 270px;
+    border-right: 0;
+}
+
+.yacht_sec table th:nth-child(2),
+.yacht_sec table th:nth-child(4) {
+    width: 100px;
+}
+
+.yacht_sec table tbody tr:nth-child(odd) {
+    background: #fcfcfc;
+}
+
+.yacht_sec table tbody tr:nth-child(even) {
+    background: #fff;
+}
+
+.yacht_sec table tbody tr:nth-child(odd) img {
+    margin: 0;
+}
+
+.yacht_sec table tbody tr:nth-child(even) img {
+    margin: 7px 0;
+}
+
+.yacht_sec table tbody tr td {
+    color: #000000;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'futura_ltbook';
+    padding: 14px 22px;
+    border-right: 1px solid #ebe8e8;
+    height: 91px;
+    border-bottom: 1px solid #ebe8e8;
+}
+
+.yacht_sec table tbody tr td:first-child {
+    padding: 0;
+}
+
+.yacht_sec table tbody td:last-child {
+    border-right: 0;
+}
+
+.yacht_sec tfoot td {
+    background: transparent;
+    padding: 14px 30px;
+    border-right: 1px solid #ebe8e8;
+    height: 41px;
+}
+/**** About Page ****/
+
+.abt_sec {
+    padding-bottom: 61px;
+}
+
+.abt_sec h5 {
+    font-size: 28px;
+    color: #000;
+    line-height: 28px;
+    font-family: 'futura_ltbook';
+    margin-top: 18px;
+    text-align: center;
+}
+
+.abt_tp {
+    border: 1px solid #e7e7e7;
+    width: 100%;
+    float: left;
+    margin-top: 67px;
+    padding: 22px 0 68px 40px;
+}
+
+.abt_tp_rght {
+    float: right;
+    padding-right: 19px;
+    width: 648px;
+}
+
+.abt_tp_lft {
+    float: left;
+    width: 644px;
+}
+
+.abt_tp_lft p {
+    font-size: 16px;
+    color: #000;
+    font-family: 'futura_ltbook';
+    line-height: 28px;
+    margin-top: 30px;
+}
+
+.abt_dream {
+    background: url(../images/abt_bnr.png) no-repeat #383838;
+    width: 100%;
+    height: 237px;
+    float: left;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 65px 0;
+}
+
+.abt_dream h3 {
+    font-size: 35px;
+    color: #fff;
+    line-height: 28px;
+    font-family: 'futura_ltbook';
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.abt_dream h5 {
+    line-height: 28px;
+    font-size: 19px;
+    color: #d6d6d6;
+    font-family: 'futura_hv_btheavy';
+}
+
+.abt_dream p {
+    line-height: 28px;
+    font-size: 19px;
+    color: #bebebe;
+    font-family: 'FuturaBT-LightItalic';
+}
+
+.abt_team {
+    width: 100%;
+    float: left;
+    background: url(../images/our_team_bnr.jpg) no-repeat center;
+    height: 896px;
+    background-size: cover;
+}
+
+.abt_reality {
+    width: 100%;
+    float: left;
+    padding: 85px 0;
+}
+
+.abt_reality_tab .nav-tabs {
+    border: 0;
+}
+
+.abt_reality_tab .nav-tabs > li {
+    padding: 0 70px;
+    border-right: 1px solid #dedede;
+    margin: 0;
+}
+
+.abt_reality_tab .nav-tabs > li > a {
+    border: 0;
+    border-radius: 0px;
+    color: #000;
+    font-size: 18px;
+    font-family: 'futura_ltbook';
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    line-height: 12px;
+}
+
+.abt_reality_tab .nav-tabs > li > a:hover,
+.abt_reality_tab .nav-tabs > li.active > a,
+.abt_reality_tab .nav-tabs > li > a:focus {
+    border: 0px;
+    background: transparent;
+}
+
+.abt_reality_tab .nav-tabs > li:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.abt_reality_tab .nav-tabs > li:first-child {
+    padding-left: 0;
+}
+
+.abt_reality_tab .fa.fa-caret-right {
+    color: #a4a4a4;
+    font-size: 16px;
+    margin-top: 0;
+    margin-right: 9px;
+}
+
+.abt_reality_tab .nav-tabs > li.active .fa.fa-caret-right {
+    color: #0060ff;
+}
+
+.abt_reality_tab .carousel-inner .item {
+    bordeR: 1px solid #e7e7e7;
+    padding: 44px 40px 44px 18px;
+    margin-top: 0px;
+    float: left;
+}
+
+.tb_bx_img {
+    float: left;
+    margin-right: 42px;
+    width: 638px;
+}
+
+.tb_bx_img img {
+    width: 100%;
+}
+
+.tb_bx_cntnt {
+    float: right;
+    width: 700px;
+    margin-top: 13px;
+}
+
+.tb_bx_cntnt h3 {
+    font-size: 28px;
+    color: #000;
+    font-family: 'futura_ltbook';
+    line-height: 28px;
+    margin-bottom: 31px;
+}
+
+.tb_bx_cntnt p {
+    font-size: 16px;
+    color: #000;
+    font-family: 'futura_ltbook';
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+
+.tb_bx_cntnt p:last-child {
+    margin-bottom: 0;
+}
+
+.abt_reality_tab {
+    float: left;
+    margin-top: 57px;
+    width: 100%;
+}
+
+.abt_reality_tab .carousel-indicators {
+    bottom: auto;
+    top: -60px;
+    text-align: left;
+    left: 0;
+    margin: 0;
+    padding-left: 0;
+    width: 94%;
+}
+
+.abt_reality_tab .carousel-indicators li {
+    font-size: 18px;
+    color: #000;
+    font-family: 'futura_ltbook';
+    text-transform: uppercase;
+    border: 0 none;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    text-indent: 0;
+    width: Auto;
+    height: auto;
+    padding: 0 70px;
+    line-height: 12px;
+    margin: 0;
+    border-right: 1px solid #dedede;
+}
+
+.abt_reality_tab .carousel-indicators li:last-child {
+    border: 0;
+    padding-right: 0;
+}
+
+.abt_reality_tab .carousel-indicators li:first-child {
+    padding-left: 0;
+}
+
+.abt_reality_tab .carousel-indicators li.active i {
+    color: #0060ff;
+}
+
+.abt_reality_tab .carousel-control {
+    z-index: 99;
+    opacity: 1;
+    text-shadow: none;
+    width: Auto;
+    top: -73px;
+}
+
+.abt_reality_tab .carousel-control.left,
+.abt_reality_tab .carousel-control.right {
+    background: transparent;
+}
+
+.abt_reality_tab .carousel-control:hover {
+    opacity: 0.5;
+}
+
+.abt_reality_tab .glyphicon-chevron-right::before,
+.abt_reality_tab .glyphicon-chevron-left::before {
+    display: none;
+}
+
+.abt_reality_tab span i {
+    border: 2px solid #c7c7c7;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    height: 26px !important;
+    margin: 0 !important;
+    width: 26px !important;
+    font-size: 21px;
+    color: #c7c7c7;
+    padding: 0 0 0 4px;
+}
+
+.abt_reality_tab span {
+    margin: 0 !important;
+    padding: 0 !important;
+    top: 0 !important;
+}
+
+.abt_reality_tab a.left span i {
+    padding: 0 2px 0 0;
+}
+
+.abt_reality_tab a.left span {
+    right: 0 !important;
+    left: auto !important;
+}
+
+.abt_reality_tab a.left {
+    right: 35px !important;
+    left: auto !important;
+}
+
+.video_cstm_slider {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 99;
+}
+
+.video_main_sec {
+    width: 100%;
+    float: left;
+    background: url(../images/video_sec_bg.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 895px;
+    height: auto;
+    padding-top: 69px;
+}
+
+.video_main_innr {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.video_main_innr h2 {
+    font-size: 42px;
+    color: #3e3f3f;
+    text-transform: capitalize;
+    font-family: 'futura_hv_btheavy';
+    margin-bottom: 56px;
+}
+
+.video_title_main {
+    position: absolute;
+    bottom: -80px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.video_title_main h1 {
+    font-size: 24px;
+    color: #3e3f3f;
+    font-family: 'futura_ltbook';
+    margin-bottom: 13px;
+    position: relative;
+    display: inline-block;
+}
+
+.holder_bu_center .video_title_main h1:before {
+    content: '';
+    position: absolute;
+    left: inherit;
+    background: #0060ff;
+    top: 4px;
+    width: 3px;
+    height: 18px;
+    margin-left: -15px
+}
+
+.holder_bu_center.holder_bu img {
+    width: 90%;
+}
+
+.video_title_main h5 {
+    color: #3e3f3f;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'futura_ltbook';
+}
+
+.vidd_test_desi > p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'futura_ltbook';
+    line-height: 28px;
+    margin-top: 28px;
+}
+
+.video_title_main a {
+    font-size: 14px;
+    color: #000;
+    font-family: "futura_hv_btheavy";
+    text-transform: capitalize;
+    margin-top: 23px;
+    display: inline-block;
+}
+
+.video_title_main > a:hover {
+    color: #0060ff;
+}
+
+.vidd_test_desi,
+.video_title_main a {
+    display: none;
+}
+
+.holder_bu_center .vidd_test_desi,
+.holder_bu_center .video_title_main a {
+    display: block;
+}
+
+.holder_bu_center .video_title_main {
+    bottom: -218px;
+}
+/**** Sailboat Charter Page ****/
+
+.charter_list {
+    float: left;
+    margin-top: 67px;
+    width: 100%;
+    padding-bottom: 46px;
+    overflow: hidden;
+}
+
+.charter_list_innr ul {
+    margin-top: 52px;
+    width: 100%;
+    float: : left;
+}
+
+.charter_list_innr ul li {
+    list-style: none;
+    float: left;
+    margin-right: 60px;
+    display: inline;
+    width: 689px;
+    margin-bottom: 63px;
+    position: relative;
+}
+
+.charter_list_innr ul li:nth-child(even) {
+    margin-right: 0;
+}
+
+.charter_list_innr ul li:hover .charter_descp {
+    transform: scale(1.18);
+    -webkit-transform: scale(1.18);
+    -moz-transform: scale(1.18);
+    -ms-transform: scale(1.18);
+}
+
+.charter_overlay {
+    width: 100%;
+    text-align: center;
+    background: #3a3a3a;
+    padding: 14px 45px;
+    float: left;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.charter_overlay h4 {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'futura_ltbook';
+    text-align: left;
+    float: left;
+    width: 100%;
+}
+
+.charter_overlay h4 a {
+    color: #fff;
+}
+
+.charter_overlay h4 i {
+    color: #fff;
+    text-align: right;
+    float: right;
+    margin-top: 2px;
+}
+
+.charter_list_innr ul li:hover .charter_overlay {
+    background: #0050ff;
+}
+
+.charter_list_innr .charter_descp {
+    cursor: pointer;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.charter_descp img {
+    left: auto !important;
+    top: auto !important;
+}
+/**** Product Page ****/
+
+.jssora02l:before {
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    right: 91px !important;
+    top: 20% !important;
+    position: absolute;
+    content: '\f106';
+    color: #8abcff;
+    font-family: 'FontAwesome';
+}
+
+.jssora02r:before {
+    cursor: pointer;
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    right: 91px !important;
+    bottom: 20%;
+    content: '\f107';
+    color: #8abcff;
+    font-family: 'FontAwesome';
+}
+
+.jssort11 .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 84px;
+    height: 91px;
+}
+
+.jssort11 .tp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.jssort11 .i,
+.jssort11 .pav:hover .i {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+* html .jssort11 .i {
+    width
+    /**/
+    
+    : 62px;
+    height
+    /**/
+    
+    : 32px;
+}
+
+.jssort11 .p:hover .t,
+.jssort11 .pav:hover .t,
+.jssort11 .p:hover .c,
+.jssort11 .pav:hover .c {
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+}
+
+#jssor_1 {
+    width: 100% !important;
+    height: 751px !important;
+}
+
+.jssort11 {
+    width: 116px;
+    height: 456px;
+    background: #fff;
+    right: 42px !important;
+}
+
+.tp:after {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.pav .tp:after {
+    background: transparent;
+}
+
+.tp {
+    cursor: pointer;
+}
+
+.specification {
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-bottom: 66px;
+}
+
+.specification_innr {
+    width: 1600px;
+    border: 2px solid #e7e7e7;
+    height: auto;
+    margin: -50px auto auto;
+    background: #fff;
+    text-align: center;
+    padding-top: 36px;
+    position: relative;
+    z-index: 9;
+    padding-bottom: 56px;
+}
+
+.specification_innr h2 {
+    width: 100%;
+    color: #3e3f3f;
+    font-family: "futura_hv_btheavy";
+    font-size: 42px;
+}
+
+.specification_bx {
+    border: 1px solid #ebe8e8;
+    display: inline-block;
+    height: auto;
+    margin-top: 39px;
+    width: 1440px;
+    text-align: left;
+}
+
+.spec1 {
+    text-align: left;
+    background: #fcfcfc;
+    width: 33.33%;
+    height: 75px;
+    floaT: left;
+}
+
+.spec1 h4 {
+    font-size: 16px;
+    color: #005579;
+    font-family: 'futura_ltbook';
+    text-align: left;
+    width: 50%;
+    display: table-cell;
+    padding: 16px;
+    border-right: 1px solid #ebe8e8;
+    border-bottom: 1px solid #ebe8e8;
+    vertical-align: middle;
+}
+
+.spec1 h4 i {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.spec1 p {
+    font-size: 15px;
+    color: #000000;
+    font-family: 'futura_ltbook';
+    text-align: left;
+    width: 50%;
+    display: table-cell;
+    padding: 16px;
+    border-bottom: 1px solid #ebe8e8;
+    border-right: 1px solid #ebe8e8;
+    vertical-align: middle;
+}
+
+.spec_tp {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.spec_tp + .spec_tp + .spec_tp h4,
+.spec_tp + .spec_tp + .spec_tp p {
+    border-bottom: 0 none;
+    height: 73px;
+}
+
+.spec1:nth-child(even) {
+    background: transparent;
+}
+/*.spec1:nth-child(even):hover {
+    background: #fcfcfc;
+}
+
+.spec1:nth-child(odd):hover {
+    background: transparent;
+}
+*/
+
+.spec1.spec2 {
+    width: 377px;
+}
+
+.spec1.spec3 {
+    width: 400px;
+}
+
+.spec1.spec4 {
+    width: 319px;
+}
+
+.spec1.spec4 p {
+    border-right: 0;
+}
+
+.product_btm_sec {
+    width: 100%;
+    float: left;
+    background: #fcfcfc;
+    padding-bottom: 71px;
+}
+
+.product_btm_lft {
+    float: left;
+    width: 950px;
+    margin-top: 55px;
+}
+
+.product_btm_lft .nav-tabs {
+    border-bottom: 0;
+}
+
+.product_btm_lft .nav-tabs li {
+    position: relative;
+    margin-right: 38px;
+}
+
+.product_btm_lft .nav-tabs li:after {
+    background: #a7a7a7 none repeat scroll 0 0;
+    content: "";
+    height: 12px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 16px;
+    width: 2px;
+    right: 0;
+}
+
+.product_btm_lft .nav-tabs li:last-child:after,
+.product_btm_lft .nav-tabs > li.active:after,
+.product_btm_lft .nav-tabs li:hover:after {
+    border-right: 0;
+    background: transparent;
+}
+
+.product_btm_lft .nav-tabs li:last-child {
+    margin-right: 0;
+    border: 0;
+}
+
+.product_btm_lft .nav-tabs li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    padding: 16px 28px;
+    font-size: 16px;
+    color: #222;
+    font-family: 'futura_hv_btheavy';
+    line-height: 12px;
+    margin: 0;
+}
+
+.product_btm_lft .nav-tabs > li.active > a,
+.product_btm_lft .nav-tabs > li.active > a:focus,
+.product_btm_lft .nav-tabs > li.active > a:hover {
+    border: 0;
+}
+
+.product_btm_lft .nav-tabs li.active a,
+.product_btm_lft .nav-tabs li:hover a {
+    background: #006cff;
+    color: #fff;
+    border-radius: 0;
+}
+
+.product_btm_lft .tab-content p {
+    font-size: 16px;
+    color: #000;
+    margin-top: 15px;
+    line-height: 28px;
+    margin-bottom: 27px;
+    float: left;
+    width: 100%;
+}
+
+.product_btm_lft .tab-content {
+    margin-top: 49px;
+}
+
+.req_quote_btn {
+    font-size: 17px;
+    color: #fff;
+    font-family: 'futura_hv_btheavy';
+    text-transform: capitalize;
+    text-align: center;
+    background: #333;
+    min-width: 200px;
+    float: left;
+    padding: 15px;
+}
+
+.req_quote_btn:hover,
+.req_quote_btn:focus {
+    background: #d5d5d5;
+    color: #fff;
+}
+
+.info_req_btn {
+    font-size: 17px;
+    color: #fff;
+    font-family: 'futura_hv_btheavy';
+    text-transform: capitalize;
+    text-align: center;
+    background: #d5d5d5;
+    min-width: 200px;
+    float: left;
+    padding: 15px;
+}
+
+.info_req_btn:hover,
+.info_req_btn:focus {
+    background: #333;
+    color: #fff;
+}
+
+.seeker_img {
+    border: 1px solid #e7e7e7;
+    width: 100%;
+    float: left;
+    margin-top: 57px;
+    background: #fff;
+    text-align: center;
+    
+    padding: 15px;height:357px;overflow:hidden;
+}
+
+.product_btm_rght {
+    float: right;
+    width: 399px;
+    margin-top: -22px;
+}
+
+.product_video_thumb {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.product_sail_range {
+    width: 100%;
+    float: left;
+}
+
+.sail_range_heading {
+    background: #3f90fe;
+    width: 100%;
+    float: left;
+}
+
+.sail_range_heading h2 {
+    font-size: 47px;
+    color: #fff;
+    font-family: 'FuturaBT-Light';
+    text-transform: uppercase;
+    padding: 21px 37px;
+}
+
+.product_sail_range > ul {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 4px solid #4191fe;
+}
+
+.product_sail_range ul li {
+    list-style: none;
+    font-size: 16px;
+    color: #454444;
+    font-family: 'futura_hv_btheavy';
+    background: #f1f1f1;
+    border-bottom: 1px solid #dcdcdc;
+    float: left;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.product_sail_range ul li:last-child {
+    border-bottom: 0;
+}
+
+.product_sail_range ul li a {
+    color: #454444;
+    padding: 0 37px;
+    display: table;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.product_sail_range ul li i {
+    color: #adadad;
+    float: left;
+    line-height: 66px;
+    padding-right: 10px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.btm_pro_list strong {
+    display: table-cell;
+    font-weight: normal;
+    height: 100%;
+    vertical-align: middle;
+    width: 75%;
+    padding-right: 5%;
+}
+
+.product_sail_range ul li:hover a {
+    color: #3f90fe;
+}
+
+.product_sail_range ul li:hover i {
+    color: #006cff;
+}
+
+.btm_pro_list {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+.btm_pro_list img {
+    max-height: 69px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.btm_pro_list span {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+    text-align: center;
+    width: 20%;
+}
+
+.tab-content ul {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+/*.tab-content li{
+    display: inline;
+    float: left;
+    list-style: outside none none;
+    margin-right: 15px;
+    width: 48%;
+    margin-bottom: 2%;
+    height: 300px;
+}*/
+
+.tab-content ul {
+    margin-left: 0px;
+    list-style: none !important;
+}
+
+#equipment li {
+    float: left;
+    height: auto;
+    margin-bottom: 0;
+    width: 100%;
+    margin-right: 0;
+    display: inline;
+}
+
+#layouts li {
+    margin-bottom: 15px;
+    margin-right: 15px;
+    max-height: none;
+    min-height: none;
+    height: auto;
+    overflow: hidden;
+    width: 200px;
+    display: inline;
+    float: left;
+}
+
+#gallery li {
+    border: 2px solid #eeeeee;
+    display: inline;
+    float: left;
+    height: 145px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    max-height: 145px;
+    min-height: 145px;
+    overflow: hidden;
+    width: 200px;
+}
+
+#gallery li img {
+    width: 100%;
+}
+
+#gallery li:nth-child(4n),
+#layouts li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.tab-content li:nth-child(even) {
+    margin-right: 0;
+}
+/**** Blog Page ****/
+
+.blog_sec {
+    width: 100%;
+    float: left;
+    padding-top: 62px;
+    padding-bottom: 88px;
+}
+
+.blog_innr {
+    width: 100%;
+    float: left;
+}
+
+.blog_innr h3 {
+    color: #303131;
+    font-family: "futura_hv_btheavy";
+    font-size: 42px;
+    line-height: 37px;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 67px;
+}
+
+.blog_lft {
+    float: left;
+    width: 830px;
+}
+
+.blog_rght {
+    width: 460px;
+    float: right;
+}
+
+.blog_date {
+    width: 93px;
+    float: left;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    height: 93px;
+    position: relative;
+    background: #fff;
+    margin-top: 83px;
+}
+
+.blog_bx:first-child .blog_date {
+    margin-top: 0;
+}
+
+.blog_bx {
+    position: relative;
+    float: left;
+}
+
+.blog_bx:after {
+    background: #e9e9e9 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 45px;
+    margin: 10px 0 0;
+    position: absolute;
+    top: 0;
+    width: 2px;
+    z-index: -1;
+}
+
+.blog_date_innr {
+    background: #006cff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 6px;
+    left: 5.5px;
+    text-align: center;
+    display: table;
+    font-family: 'GothamMedium-Regular';
+}
+
+.blog_date span {
+    color: #fefefe;
+    font-size: 18px;
+    text-transform: uppercase;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'GothamMedium-Regular';
+    word-break: break-all;
+}
+
+.blog_bx:first-child .blog_cntnt {
+    margin-top: 0;
+}
+
+.blog_cntnt {
+    width: 706px;
+    border: 1px solid #e2e2e2;
+    margin-left: 30px;
+    float: left;
+    padding: 24px;
+    position: relative;
+    z-index: 99;
+    margin-top: 83px;
+}
+
+.blog_cntnt:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    right: 0;
+    border: 1px solid #e2e2e2;
+    width: 98%;
+    background: #fff;
+    border-top: 0;
+    height: 16px;
+    margin-top: 1px;
+}
+
+.blog_img {
+    margin-bottom: 26px;
+}
+
+.blog_descp h2 {
+    font-size: 24px;
+    color: #4d4d4d;
+    font-family: 'futura_ltbook';
+}
+
+.blog_descp ul {
+    border-bottom: 1px solid #e9e9e9;
+    margin-bottom: 17px;
+    float: left;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.blog_descp ul li {
+    display: inline;
+    float: left;
+    font-size: 14px;
+    font-family: 'futura_ltbook';
+    border-right: 1px solid #8f8f8f;
+    color: #8f8f8f;
+    padding: 0 15px;
+}
+
+.blog_descp ul li i {
+    margin-right: 10px;
+}
+
+.blog_descp ul li a {
+    color: #8f8f8f;
+    margin: 0 15px;
+}
+
+.blog_descp ul li a:hover {
+    color: #20314b;
+}
+
+.blog_descp ul li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.blog_descp ul li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.blog_descp ul li:last-child {
+    border-right: 0;
+}
+
+.blog_descp p {
+    font-size: 16px;
+    color: #000;
+    font-family: 'futura_ltbook';
+    line-height: 28px;
+}
+
+.blog_descp a.read_more {
+    color: #000;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: "futura_hv_btheavy";
+    margin-top: 21px;
+    float: left;
+}
+
+.blog_descp a.read_more:hover {
+    color: #006cff;
+}
+
+.blog_img img {
+    width: 100%;
+}
+
+.load_more {
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    color: #006cff;
+    display: table;
+    float: left;
+    font-size: 43px;
+    height: 57px;
+    margin-left: 17px;
+    width: 57px;
+    margin-top: 24px;
+    position: relative;
+}
+
+.load_more i {
+    display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.load_more:hover i {
+    color: #3370a6;
+}
+
+.blog_search_bx input[type="text"] {
+    width: 100%;
+    float: left;
+    height: 55px;
+    border: 1px solid #e2e2e2;
+    padding: 0 46px 0 30px;
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.blog_search_bx input[type="text"]::-webkit-input-placeholder {
+    color: #bcbcbc;
+}
+
+.blog_search_bx input[type="text"]::-moz-placeholder {
+    color: #bcbcbc;
+    opacity: 1;
+}
+
+.blog_search_bx {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 47px;
+}
+
+.blog_search_bx i {
+    color: #2a84ff;
+    position: absolute;
+    right: 30px;
+    line-height: 55px;
+}
+
+.recent_post {
+    float: left;
+}
+
+.recent_post h2 {
+    font-size: 22px;
+    color: #000000;
+    font-family: 'futura_ltbook';
+    text-transform: uppercase;
+}
+
+.recent_post ul li {
+    list-style: none;
+    width: 100%;
+    float: left;
+    margin-top: 26px;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 20px;
+}
+
+.recent_post ul li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.post_sec h4 {
+    font-size: 16px;
+    color: #8f8f8f;
+    margin-bottom: 6px;
+}
+
+.post_sec p a {
+    font-size: 18px;
+    color: #000000;
+    font-family: 'futura_ltbook';
+    line-height: 30px;
+}
+
+.post_sec p a:hover {
+    color: #3370a6;
+}
+
+.post_thumb {
+    float: left;
+    width: 75px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.post_cntnt {
+    float: left;
+    width: 300px;
+}
+
+.browse_tag {
+    margin-top: 64px;
+    float: left;
+    width: 368px;
+}
+
+.browse_tag h2 {
+    font-size: 22px;
+    color: #000000;
+    font-family: 'futura_ltbook';
+    text-transform: uppercase;
+}
+
+.browse_tag ul {
+    margin-top: 23px;
+}
+
+.browse_tag ul li {
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    background: #444751;
+    width: 84px;
+    padding: 6px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    color: #fff;
+    font-family: 'futura_ltbook';
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.browse_tag ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.browse_tag ul li a {
+    color: #fff;
+}
+
+.browse_tag li:hover,
+.browse_tag li:focus,
+.browse_tag linavi.active {
+    background: #20314b;
+}
+
+h2.no_record {
+    font-family: 'futura_ltbook';
+    font-size: 30px;
+    line-height: 24px;
+    text-align: center;
+    background: #444751;
+    color: #fff;
+    padding: 16px;
+}
+/**** Sailing Yacht Page ****/
+
+.cstm_yacht {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 74px 0 45px;
+}
+
+.cstm_yacht h3 {
+    color: #222222;
+    font-family: "futura_hv_btheavy";
+    font-size: 42px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.cstm_yacht .sail_range_list {
+    text-align: left;
+}
+
+.ycht_bx {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 45px;
+}
+
+.ycht_bx:last-child {
+    margin-bottom: 0;
+    border: 0;
+}
+
+.cstm_yacht .ycht_bx +.ycht_bx {
+    margin-top: 55px;
+}
+
+.sail_range_list p br {
+    display: none;
+}
+/**** Pop Up ****/
+
+#myModal .modal-dialog {
+    margin: 90px auto;
+    width: 1440px;
+}
+
+#myModal h4 {
+    font-size: 42px;
+    color: #303131;
+    font-family: 'futura_hv_btheavy';
+    text-align: center;
+    margin-top: 31px;
+    width: 100%;
+}
+
+#myModal .modal-content {
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+#myModal .modal-header {
+    border-bottom: 0;
+}
+
+#myModal .modal-body {
+    padding: 0 110px 74px;
+}
+
+#myModal .modal-body label {
+    font-size: 15px;
+    color: #717171;
+    font-family: 'futura_ltbook';
+    margin: 0;
+}
+
+#myModal .modal-body label i {
+    font-size: 17px;
+    color: #717171;
+    margin-right: 12px;
+}
+
+#myModal .modal-body label i.fa.fa-mobile {
+    font-size: 22px;
+}
+
+#myModal .modal-body p {
+    width: 593px;
+    display: inline-block;
+    margin-bottom: 33px;
+}
+
+#myModal .modal-body input[type="text"],
+#myModal .modal-body input[type="email"] {
+    width: 100%;
+    height: 51px;
+    border: 1px solid #d7d7d7;
+    margin-top: 13px;
+    padding: 0 15px;
+    border-radius: 0;
+    appearance: none;
+}
+
+.modal-body p:nth-child(even) {
+    margin-right: 2%;
+}
+
+.cstm_quote1 {
+    float: right;
+    width: 593px;
+    position: relative;
+}
+
+#myModal .modal-body input[type="submit"] {
+    background: #006cff none repeat scroll 0 0;
+    border: 1px solid #006cff;
+    color: #ffffff;
+    float: right;
+    font-family: "futura_ltbook";
+    font-size: 23px;
+    height: 50px;
+    margin-top: 35px;
+    padding: 8px;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    width: 100%;
+    border-radius: 0;
+    font-weight: normal;
+}
+
+#myModal .modal-body input[type="submit"]:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #222222;
+}
+
+#myModal .close {
+    color: #006cff;
+    opacity: 1;
+    font-size: 32px;
+    position: absolute;
+    right: 10px;
+}
+
+#myModal .close:hover,
+#myModal .close:focus {
+    opacity: 0.5;
+}
+
+#myModal span.wpcf7-not-valid-tip {
+    display: none;
+}
+
+#myModal input.wpcf7-not-valid {
+    border: 1px solid red !important;
+}
+
+.cstm_quote1 .ajax-loader {
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+/**** Privacy Policy ****/
+
+.privacy_policy {
+    width: 100%;
+    padding: 64px 0;
+    float: left;
+}
+
+.privacy_policy_innr h2 {
+    color: #303131;
+    font-family: "futura_hv_btheavy";
+    font-size: 42px;
+    line-height: 37px;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.privacy_policy_innr p {
+    color: #000000;
+    font-family: "futura_ltbook";
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 28px;
+}
+
+.privacy_policy_innr h4 {
+    color: #303131;
+    font-family: "futura_hv_btheavy";
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 0;
+    text-align: left;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.privacy_policy_innr ul li {
+    color: #000000;
+    font-family: "futura_ltbook";
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+
+.privacy_policy_innr > ul {
+    float: left;
+    margin-bottom: 10px;
+}
+/**** Team Inner Page ****/
+
+.team_innr_sec {
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding: 64px 0;
+}
+
+.team_innr h3 {
+    margin-bottom: 30px;
+}
+
+.team_innr h4 {
+    color: #303131;
+    font-family: "futura_ltbook";
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.team_innr > a {
+    display: inline-block;
+    height: auto;
+    margin-bottom: 15px;
+    width: 350px;
+}
+
+.team_innr h5 {
+    color: #303131;
+    font-family: "futura_ltbook";
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.team_innr p {
+    color: #000000;
+    font-family: "futura_ltbook";
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+}
+
+.load_more_btn {
+    height: 57px;
+    font-size: 0;
+    background: transparent !important;
+    position: absolute;
+    left: 0;
+    width: 57px;
+    z-index: 3;
+}
+
+.load_more_btn:hover,
+.load_more_btn:focus {
+    background: transparent !important;
+}
+
+.mc4wp-form.mc4wp-form-274,
+.mc4wp-form-fields {
+    display: inline-block;
+}
+/**** Error Page ****/
+
+.error_bx {
+    float: left;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.error_section h1 {
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0;
+    line-height: 0;
+    font-size: 35px;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.error-404 {
+    background: #20314b;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.error_section p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0;
+    margin: 0px auto;
+    margin-top: 15px;
+}
+
+.error_cnt_bx {
+    max-width: 1200px;
+    margin: 0px auto;
+    background: #fff;
+    margin-top: -16px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    position: relative;
+    padding-bottom: 40px;
+    border-bottom: medium double #ccc;
+    padding-top: 0;
+}
+
+.error_btm_cntnt h1 {
+    font-size: 165px;
+    font-weight: 600;
+    line-height: 140px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.error_btm_cntnt {
+    text-align: center;
+    padding: 0px 0 104px;
+}
+
+.error_btm_cntnt p {
+    font-family: 'Open Sans', sans-serif;
+    color: #5a5a5a;
+    font-size: 21px;
+}
+
+.errr_main {
+    width: 100%;
+    float: left;
+}
+
+#blg_inr li:nth-child(4) {
+    display: none;
+}
+
+#blg_inr li:nth-child(3) {
+    border-right: 0;
+}
+
+::i-block-chrome,
+.mc4wp-error p {
+    color: red;
+    padding-top: 15px;
+    text-transform: none !important;
+}
+
+.tytul {
+    font-size: 20px !important;
+    margin-bottom: 15px !important;
+    font-family: 'futura_hv_btheavy';
+    margin-top: 0 !important;
+}
+
+#equipment h3 {
+    float: left;
+    font-family: "futura_hv_btheavy";
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#equipment > ul {
+    margin-bottom: 20px;
+    margin-left: 12px;
+    font-family: "futura_ltbook";
+}
+
+#equipment > ul li {
+    font-family: "futura_ltbook";
+    font-size: 15px;
+    line-height: 25px;
+}
+/*#layouts li {
+    display: inline;
+    float: left;
+    list-style: outside none none;
+    margin-bottom: 15px;
+    margin-right: 2%;
+    width: 48%;
+    height: 300px;
+}
+*/
+
+#layouts img {
+    height: 100%;
+    width: 100%;
+}
+
+#video li {
+    display: inline;
+    float: left;
+    list-style: outside none none;
+    margin-right: 2%;
+    width: 48%;
+}
+/*#video li:nth-child(even),
+#layouts li:nth-child(even) {
+    margin-right: 0;
+}*/
+
+.tab-content {
+    color: #000000;
+    font-family: "futura_ltbook";
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.cust_equp {
+    float: left;
+    margin-left: 2%;
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.cust_equp:nth-child(even) {
+    margin-left: 0;
+}
+
+.cust_equp > ul,
+.cust_equp1 > ul {
+    margin-left: 15px;
+}
+
+.cust_equp img {
+    float: right;
+}
+
+.cust_equp1 {
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+
+#searchform > button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    position: absolute;
+    right: 32px;
+    top: 19px;
+    z-index: 1;
+}
+
+.modal-open {
+    overflow-y: auto;
+    padding-right: 0 !important;
+}
+
+#loading_sec {
+    float: left;
+    margin-left: 15px;
+    margin-top: 38px;
+    width: 36px;
+}
+
+.no_rcrd {
+    background: #444751;
+    font-family: "futura_hv_btheavy";
+    font-size: 22px;
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+    color: #fff;
+}
+
+.no_video {
+    height: auto !important;
+}
+.powered{font-size: 15px !important;color:#fff !important; font-family: 'GothamLight' !important;width:auto;display:inline-block;}
+.powered span{font-family: 'GoudyOldStyleT-Regular';}
+.powered a{color:#26a9e0 !important;text-decoration:underline;    font-size: 15px;opacity:0.7;}
+.powered a:hover{opacity:1;}
+/**********  Responsive  **********/
+
+@media (min-width: 1500px) {
+    .container {
+        width: 1470px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .logo {
+        width: 115px;
+    }
+}
+
+@media (max-width: 1499px) {
+    /**** Header Section ****/
+    
+    #mainNav {
+        padding-top: 30px;
+    }
+    #mainNav .navigation li {
+        margin-right: 15px;
+    }
+    .header_contact p {
+        font-size: 14px;
+    }
+    .header_contact i {
+        font-size: 15px;
+        margin-right: 0;
+    }
+    #mainNav .navigation {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+    }
+    #mainNav .navigation ul {
+        margin-right: 0;
+    }
+    #mainNav .navigation li a {
+        font-size: 12px;
+    }
+    .logo {
+        width: 115px;
+    }
+    #mainNav.affix .logo {
+        width: 115px;
+    }
+    /**** Banner Section ****/
+    
+    .banner_innr {
+        width: 721px;
+    }
+    .banner h2 {
+        font-size: 120px;
+    }
+    .banner h2 span.blue {
+        font-size: 150px;
+    }
+    .banner h4 {
+        font-size: 72px;
+        margin-top: -71px;
+    }
+    /**** Sail Range Section ****/
+    
+    .sail_range {
+        margin-top: 30px;
+    }
+    .sail_range_innr > h2 {
+        font-size: 150px;
+        margin-right: 9px;
+    }
+    .sail_range_innr > h2 > span.sail_blk {
+        font-size: 32px;
+    }
+    .sail_range_innr > ul {
+        margin-top: 20px;
+    }
+    .sail_range_innr > ul > li {
+        width: 32%;
+    }
+    .sail_range_innr .sail_range_list p {
+        overflow: hidden;
+    }
+    .info_req,
+    .quote_req {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    /**** Power Range Section ****/
+    
+    .power_range {
+        margin-top: 20px;
+    }
+    .power_range_innr h2 span.sail_blk {
+        right: 69%;
+    }
+    .power_range_innr ul li {
+        width: 23%;
+    }
+    .sail_range.news_sec {
+        margin-top: 37px;
+    }
+    /**** News Section ****/
+    
+    .owl-item .item {
+        margin: 0px auto auto;
+    }
+    .owl-next {
+        right: 15px;
+    }
+    .sail_range.news_sec {
+        margin-bottom: 60px;
+    }
+    .news_innr_bx h2 {
+        font-size: 26px;
+    }
+    .news_innr_bx h2 br {
+        display: none;
+    }
+    .news_innr_bx p {
+        font-size: 15px;
+    }
+    .news_outer_bx {
+        top: 10px;
+        height: auto;
+    }
+    .news_innr_bx {
+        min-height: 300px;
+        padding: 10px;
+    }
+    .news_innr_bx h4 {
+        margin-bottom: 10px;
+    }
+    .news_slider {
+        padding-bottom: 60px;
+    }
+    .owl-buttons {
+        margin-top: 30px;
+    }
+    /**** Footer Section ****/
+    
+    .ftr_rght,
+    .ftr_lft {
+        width: 50%;
+    }
+    .ftr_rght .hire_sec,
+    .ftr_rght .hire_sec .hire_form input,
+    .ftr_rght .hire_sec .hire_form textarea {
+        width: 100%;
+    }
+    .ftr_rght {
+        padding: 7px 30px;
+    }
+    .ftr_rght .hire_sec h2 {
+        font-size: 110px;
+        line-height: 100px;
+        padding-left: 151px;
+    }
+    .ftr_rght .hire_sec h2 span.hire_blk {
+        font-size: 33px;
+        top: 6px;
+    }
+    .ftr_rght {
+        min-height: 0;
+        padding: 7px 30px 30px;
+    }
+    .footer_nav ul li {
+        font-size: 11px;
+        margin-right: 20px;
+    }
+    .ftr_lft p.copyright {
+        font-size: 11px;
+        margin-top: 15px;
+    }
+    .ftr_lft {
+        margin-top: 146px;
+        width: 46%;
+    }
+    .ftr_adrs p {
+        font-size: 14px;
+    }
+    .footer_social ul li {
+        font-size: 15px;
+    }
+    .footer_social {
+        margin-top: 50px;
+    }
+    .footer_nav {
+        margin-top: 40px;
+    }
+    .ftr_rght .hire_sec .hire_form {
+        float: left;
+        margin-top: 0;
+        width: 100%;
+    }
+    /**** Contact Page ****/
+    
+    .cntct_frm {
+        padding: 48px 100px;
+    }
+    .cntct_frm p {
+        width: 456px;
+    }
+    .cntct_frm h3 {
+        font-size: 32px;
+        margin-bottom: 45px;
+    }
+    .cntct_map iframe {
+        width: 939px;
+    }
+    .cntct_map .acf-map {
+        width: 100%;
+    }
+    /**** Power Yachts Page ****/
+    
+    .power_yacht_innr h3,
+    .team_innr h3 {
+        font-size: 32px;
+    }
+    .power_yacht {
+        padding-top: 34px;
+        padding-bottom: 54px;
+    }
+    .yacht_sec {
+        margin-top: 30px;
+    }
+    /**** About Page ****/
+    
+    .video_main_sec {
+        min-height: 790px;
+        height: auto;
+    }
+    .abt_tp_lft {
+        float: left;
+        width: 55%;
+    }
+    .abt_tp_rght {
+        float: right;
+        padding-right: 19px;
+        width: 40%;
+    }
+    .abt_sec h5 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .abt_tp_lft p:first-child {
+        margin-top: 0;
+    }
+    .abt_tp {
+        padding: 22px 0 22px 40px;
+    }
+    .abt_tp_lft p {
+        font-size: 15px;
+        line-height: 26px;
+        margin-top: 20px;
+    }
+    .abt_dream h3 {
+        font-size: 30px;
+    }
+    .abt_dream {
+        height: auto;
+    }
+    .abt_reality_tab .carousel-indicators li {
+        font-size: 14px;
+        padding: 0 45px;
+    }
+    .abt_reality_tab {
+        margin-top: 35px;
+    }
+    .tb_bx_img {
+        width: 45%;
+        margin-right: 20px;
+    }
+    .tb_bx_cntnt {
+        width: 53%;
+    }
+    .tb_bx_cntnt h3 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .tb_bx_cntnt p {
+        margin-bottom: 20px;
+    }
+    .abt_reality {
+        padding-bottom: 50px;
+    }
+    .tb_bx_cntnt {
+        margin-top: 0;
+    }
+    /**** Sailboat Charter Page ****/
+    
+    .charter_list {
+        margin-top: 35px;
+        padding-bottom: 0;
+    }
+    .charter_list_innr ul {
+        margin-top: 35px;
+    }
+    .charter_list_innr ul li {
+        width: 49.5%;
+        margin-right: 1%;
+    }
+    .charter_list_innr ul li:hover .charter_descp {
+        transform: scale(1.09);
+        -webkit-transform: scale(1.09);
+        -moz-transform: scale(1.09);
+        -ms-transform: scale(1.09);
+    }
+    /****  Product Page ****/
+    
+    #jssor_1 {
+        height: 520px !important;
+    }
+    .specification_innr {
+        width: 90%;
+        margin-top: -95px;
+        padding-bottom: 35px;
+    }
+    .specification_innr h2 {
+        font-size: 32px;
+    }
+    .specification_bx {
+        width: 90%;
+    }
+    .spec1 {
+        width: 50% !important;
+    }
+    .specification_bx {
+        height: auto;
+        margin-top: 30px;
+    }
+    .spec_tp + .spec_tp + .spec_tp h4,
+    .spec_tp + .spec_tp + .spec_tp p {
+        border-bottom: 1px solid #ebe8e8;
+    }
+    .spec1.spec2 p {
+        border-right: 0;
+    }
+    .specification {
+        margin-bottom: 50px;
+    }
+    .product_btm_lft {
+        width: 65%;
+    }
+    .product_btm_rght {
+        width: 30%;
+    }
+    .product_btm_lft .nav-tabs li {
+        margin-right: 10px;
+    }
+    .product_btm_lft .nav-tabs li a {
+        font-size: 15px;
+    }
+    .product_btm_lft .tab-content {
+        margin-top: 35px;
+    }
+    .product_btm_lft .tab-content p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .info_req_btn,
+    .req_quote_btn {
+        font-size: 16px;
+    }
+    .seeker_img {
+        margin-top: 50px;
+    }
+    .sail_range_heading h2 {
+        font-size: 35px;
+        padding: 21px 15px;
+    }
+    .product_sail_range ul li {
+        font-size: 13px;
+    }
+    .product_sail_range ul li a {
+        padding: 0 15px;
+    }
+    #gallery li,
+    #layouts li {
+        width: 172px;
+    }
+    /**** Blog Page ****/
+    
+    .blog_sec {
+        padding-top: 35px;
+    }
+    .blog_innr h3 {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+    .blog_date span {
+        font-size: 16px;
+    }
+    .blog_lft {
+        width: 65%;
+    }
+    .blog_rght {
+        width: 30%;
+    }
+    .blog_search_bx input[type="text"] {
+        padding: 0 53px 0 15px;
+    }
+    .blog_search_bx {
+        margin-bottom: 35px;
+    }
+    .post_thumb {
+        height: auto;
+        width: 75px;
+    }
+    .post_sec p a {
+        font-size: 17px;
+    }
+    .post_cntnt {
+        width: 234px;
+    }
+    .post_sec p a {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .browse_tag {
+        margin-top: 35px;
+        width: 100%;
+    }
+    .browse_tag ul li:nth-child(3n) {
+        margin-right: 0;
+    }
+    .browse_tag ul li:nth-child(4n) {
+        margin-right: 10px;
+    }
+    .blog_cntnt {
+        width: 82%;
+    }
+    .blog_descp h2 {
+        font-size: 20px;
+    }
+    .blog_descp ul {
+        margin-top: 20px;
+    }
+    .blog_descp p {
+        font-size: 15px;
+    }
+    .blog_descp a.read_more {
+        margin-top: 15px;
+    }
+    .load_more {
+        width: 50px;
+        height: 50px;
+    }
+    .load_more_btn {
+        width: 50px;
+        height: 50px;
+    }
+    h2.no_record {
+        font-size: 22px;
+    }
+    .load_more {
+        margin-top: 32px;
+    }
+    .blog_bx::after {
+        height: 102%;
+    }
+    /**** Sailing Yachts Page ****/
+    
+    .cstm_yacht h3 {
+        font-size: 32px;
+    }
+    .cstm_yacht {
+        padding: 0 0 35px;
+    }
+    .cstm_yacht .ycht_bx + .ycht_bx {
+        margin-top: 45px;
+    }
+    .sail_range_innr .sail_range_list a img {
+        max-height: 230px;
+    }
+    /**** Popup ****/
+    
+    #myModal .modal-dialog {
+        width: 90%;
+    }
+    #myModal .modal-body {
+        padding: 0 30px 50px;
+    }
+    #myModal .modal-body p {
+        margin-bottom: 20px;
+        width: 48%;
+    }
+    #myModal .modal-body p:nth-child(odd) {
+        float: right;
+    }
+    #myModal .modal-body input[type="submit"] {
+        width: 100%;
+    }
+    #myModal h4 {
+        font-size: 32px;
+        margin-top: 0px;
+    }
+    .cstm_quote1 {
+        width: 48%;
+    }
+    #myModal .modal-dialog {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #myModal div.wpcf7-validation-errors,
+    #myModal div.wpcf7-mail-sent-ok {
+        float: none;
+    }
+    /**** Privacy Policy Page ****/
+    
+    .privacy_policy {
+        padding: 34px 0;
+    }
+    .privacy_policy_innr h2 {
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+    /**** Team Inner Page ****/
+    
+    .team_innr_sec {
+        padding: 34px 0;
+    }
+    .team_innr p {
+        font-size: 15px;
+    }
+    .team_innr h5 {
+        font-size: 16px;
+    }
+    .no_rcrd {
+        font-size: 18px;
+    }
+    .powered{font-size: 13px !important;}
+    .powered a{font-size: 13px;}
+}
+
+@media (max-width: 1199px) {
+    /**** Header Section ****/
+    
+    .wow {
+        -webkit-animation-name: none !important;
+        animation-name: none !important;
+        visibility: visible !important;
+    }
+    .header_contact i {
+        font-size: 14px;
+    }
+    .header_contact p {
+        font-size: 13px;
+    }
+    #mainNav {
+        background: #20314b !important;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    #responsive-menu {
+        width: 300px !important;
+    }
+    #click-menu #RMX {
+        color: #fff !important;
+        font-size: 42px !important;
+        line-height: 17px !important;
+    }
+    #responsive-menu {
+        background: #20314b !important;
+    }
+    #click-menu {
+        background: transparent !important;
+        top: 23px !important;
+        right: 39px;
+    }
+    #click-menu .threeLines .line {
+        height: 2px !important;
+    }
+    #click-menu .threeLines {
+        height: 22px !important;
+        margin: auto !important;
+        width: 24px !important;
+    }
+    #responsive-menu .responsive-menu li a:hover,
+    #responsive-menu .responsive-menu li.current-menu-item > a,
+    #responsive-menu .responsive-menu li.current-menu-item > .appendLink,
+    #responsive-menu .responsive-menu li.current_page_item > a,
+    #responsive-menu .responsive-menu li.current_page_item > .appendLink,
+    #responsive-menu .responsive-menu li.current-menu-item > a:hover,
+    #responsive-menu .responsive-menu li.current-menu-item > .appendLink:hover,
+    #responsive-menu .responsive-menu li.current_page_item > a:hover,
+    #responsive-menu .responsive-menu li.current_page_item > .appendLink:hover {
+        background: #374f75 !important;
+    }
+    #responsive-menu .responsive-menu li a {
+        border-top: 1px solid #374f75 !important;
+    }
+    #click-menu .threeLines .line {
+        background: #fff !important
+    }
+    .header_contact i {
+        padding-top: 19px;
+    }
+    .header_contact {
+        margin-top: 4px;
+        margin-right: 100px;
+    }
+    /**** Contact Page ****/
+    
+    .contact_banner,
+    .charter_banner {
+        margin-top: 74px;
+    }
+    #mainNav .navigation {
+        display: none;
+    }
+    .cntct_frm {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    .contact_innr {
+        padding-top: 50px;
+    }
+    .cntct_frm h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .cntct_frm p {
+        width: 49%;
+    }
+    .cntct_frm input[type="submit"] {
+        font-size: 21px;
+    }
+    .cntct_map {
+        height: 350px;
+    }
+    .cntct_map .acf-map {
+        width: 100%;
+    }
+    .contact_form,
+    .cntct_frm p.wdth_full {
+        margin-bottom: 30px;
+    }
+    .cntct_frm input {
+        height: 45px;
+    }
+    .contact_form {
+        padding-bottom: 0;
+    }
+    .cntct_frm input,
+    .cntct_frm textarea {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        border-radius: 0;
+    }
+    /**** Footer Section ****/
+    
+    .ftr_rght {
+        width: 44%;
+        padding: 7px 15px 30px;
+    }
+    .ftr_lft {
+        width: 53%;
+        margin-top: 103px;
+    }
+    .footer_nav ul li {
+        margin-right: 13px;
+    }
+    .ftr_rght .hire_sec h2 span.hire_blk {
+        font-size: 26px;
+    }
+    .ftr_rght .hire_sec h2 {
+        font-size: 90px;
+        line-height: 80px;
+        padding-left: 117px;
+    }
+    .hire_sec div.wpcf7-validation-errors,
+    .hire_sec .wpcf7-mail-sent-ok {
+        font-size: 13px !important;
+    }
+    .ftr_rght .hire_sec {
+        padding-bottom: 0;
+    }
+    .hire_sec div.wpcf7-validation-errors,
+    .hire_sec .wpcf7-mail-sent-ok {
+        position: static;
+    }
+    .subscribe_form .input {
+        width: 157px;
+        margin-right: 15px;
+    }
+    .subscribe_form label {
+        padding-left: 0;
+        margin-right: 15px;
+    }
+    /**** Yacht Charter Page ****/
+    
+    .power_yacht_innr h3,
+    .cstm_yacht h3,
+    .team_innr h3 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .charter_list_innr ul {
+        margin-top: 15px;
+    }
+    .charter_list_innr ul li {
+        margin-bottom: 35px;
+    }
+    .charter_overlay h4 {
+        font-size: 21px;
+    }
+    .yacht_sec table th:first-child {
+        width: 100px;
+    }
+    /**** Sailing Yacht Page ****/
+    
+    .cstm_yacht {
+        margin: 0 0 10px;
+        padding: 35px 0;
+    }
+    .cstm_yacht ul {
+        margin-top: 0;
+    }
+    .cstm_yacht .ycht_bx + .ycht_bx {
+        margin-top: 35px;
+    }
+    .sail_range_innr .sail_range_list a img {
+        max-height: 195px;
+    }
+    .sail_range_innr .sail_range_list p {
+        font-size: 14px;
+    }
+    .ycht_bx {
+        padding-bottom: 30px;
+    }
+    .cstm_yacht .ycht_bx + .ycht_bx {
+        margin-top: 30px;
+    }
+    .ycht_bx:last-child {
+        padding-bottom: 0;
+    }
+    .sail_range_innr .sail_range_img {
+        margin-bottom: 30px;
+    }
+    /**** Home Page Start ****/
+    
+    .banner {
+        margin-top: 74px;
+    }
+    .banner h2 {
+        font-size: 70px;
+        line-height: 62px;
+    }
+    .banner h2 span.blue {
+        font-size: 80px;
+    }
+    .banner_innr {
+        width: 600px;
+    }
+    .banner_innr a.read_more::before {
+        right: 92px;
+    }
+    .banner h4 {
+        font-size: 62px;
+        margin-top: -50px;
+        padding-left: 110px;
+    }
+    .banner h4 bold {
+        margin-left: -6px;
+        top: 25px;
+    }
+    /**** Sail Range Section ****/
+    
+    .sail_range_innr > h2 > span.sail_blk {
+        font-size: 30px;
+    }
+    .sail_range_innr > h2 {
+        font-size: 100px;
+    }
+    .sail_range_innr h2 span.sail_blk {
+        bottom: 40px;
+    }
+    .see_more {
+        margin-bottom: 10px;
+    }
+    .power_range_innr h2 span.sail_blk {
+        right: auto;
+        left: auto;
+        text-align: left;
+        bottom: 34px;
+    }
+    .sail_range_innr .sail_range_list h3 {
+        line-height: 21px;
+    }
+    /**** News Section ****/
+    
+    .news_innr_bx h2 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .sail_range.news_sec {
+        margin-top: 0;
+    }
+    .owl-buttons {
+        margin-top: 40px;
+    }
+    .news_slider > img {
+        height: 300px;
+        width: auto;
+    }
+    .news_sec_innr {
+        margin-right: 0;
+    }
+    /**** Power Range Section ****/
+    
+    .power_range_innr .power_range_list h3 {
+        font-size: 19px;
+    }
+    .power_range_innr .power_range_list p {
+        font-size: 14px;
+    }
+    /**** About Page ****/
+    
+    .abt_reality_tab {
+        margin-top: 25px;
+    }
+    .abt_dream {
+        padding: 40px 0;
+    }
+    .abt_sec h5 {
+        font-size: 19px;
+    }
+    .abt_tp {
+        margin-top: 45px;
+        padding: 22px;
+    }
+    .abt_tp_lft {
+        width: 100%;
+    }
+    .abt_tp_rght {
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+    }
+    .abt_tp_rght > img {
+        width: 600px;
+    }
+    .abt_dream h3 {
+        font-size: 24px;
+        margin-bottom: 28px;
+    }
+    .abt_dream p {
+        font-size: 18px;
+    }
+    .video_main_sec {
+        padding-top: 40px;
+    }
+    .video_main_innr h2 {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .video_title_main h1 {
+        font-size: 20px;
+    }
+    .video_title_main {
+        bottom: -65px;
+    }
+    .holder_bu_center .video_title_main {
+        bottom: -233px;
+    }
+    .video_main_sec {
+        height: auto;
+        min-height: 685px;
+    }
+    .abt_reality_tab .carousel-indicators li {
+        font-size: 13px;
+        padding: 0 35px;
+    }
+    .tb_bx_img {
+        text-align: center;
+        width: 100%;
+        margin-right: 0;
+    }
+    .tb_bx_img img {
+        width: 400px;
+    }
+    .tb_bx_cntnt {
+        margin-top: 25px;
+        width: 100%;
+    }
+    .tb_bx_cntnt h3 {
+        text-align: center;
+    }
+    .tb_bx_cntnt p {
+        font-size: 15px;
+    }
+    .abt_reality_tab .carousel-inner .item {
+        padding: 30px;
+    }
+    .holder_bu_center .video_title_main h1::before {
+        top: 0;
+    }
+    /**** Sailing Yacht Popup ****/
+    
+    #myModal .modal-dialog {
+        width: 97%;
+        margin-bottom: 89px;
+        margin-top: 89px;
+    }
+    #myModal h4 {
+        display: inline-block;
+        font-size: 27px;
+        margin-top: 0;
+    }
+    .modal-header .close {
+        margin-top: -15px;
+    }
+    .modal-content {
+        padding-top: 15px;
+    }
+    #myModal .modal-body {
+        padding: 0 30px 30px;
+    }
+    #myModal .modal-body input[type="submit"] {
+        font-size: 17px;
+        height: 40px;
+        margin-top: 34px;
+    }
+    #myModal .modal-body input[type="text"],
+    #myModal .modal-body input[type="email"] {
+        height: 40px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+    }
+    .cstm_quote1 .ajax-loader {
+        top: 45px;
+    }
+    /**** Privacy Policy Page ****/
+    
+    .privacy_policy_innr h2 {
+        font-size: 30px;
+    }
+    .privacy_policy_innr p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .privacy_policy_innr h4 {
+        font-size: 19px;
+    }
+    /**** Terms and Condition ****/
+    
+    .privacy_policy_innr ul li {
+        font-size: 15px;
+    }
+    /**** Team Inner Page ****/
+    
+    .team_innr {
+        margin-bottom: 30px;
+    }
+    /**** Blog Page ****/
+    
+    .blog_cntnt {
+        width: 83%;
+        margin-left: 15px;
+        padding: 10px;
+    }
+    .post_thumb {
+        margin-right: 5%;
+        width: 30%;
+    }
+    .post_cntnt {
+        width: 65%;
+    }
+    .blog_search_bx {
+        margin-bottom: 30px;
+    }
+    .recent_post h2,
+    .browse_tag h2 {
+        font-size: 20px;
+    }
+    .browse_tag {
+        margin-top: 30px;
+    }
+    .blog_search_bx i {
+        line-height: 45px;
+    }
+    .blog_search_bx input[type="text"] {
+        height: 45px;
+    }
+    .blog_sec {
+        padding-bottom: 50px;
+    }
+    .blog_date {
+        width: 80px;
+        height: 80px;
+    }
+    .blog_date_innr {
+        height: 67px;
+        left: 5.5px;
+        width: 67px;
+    }
+    .blog_date span {
+        font-size: 14px;
+    }
+    .blog_lft {
+        width: 67%;
+    }
+    .blog_descp ul li {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .browse_tag ul li {
+        width: 32%;
+        margin-right: 1%;
+    }
+    .browse_tag ul li:nth-child(4n) {
+        margin-right: 1%;
+    }
+    .blog_innr h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .blog_bx::after {
+        left: 40px;
+    }
+    .blog_search_bx input[type="text"] {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        border-radius: 0;
+    }
+    .footer_social {
+        margin-top: 30px;
+    }
+    .mc4wp-error p {
+        color: red;
+        padding-top: 15px;
+        text-transform: none !important;
+    }
+    .load_more {
+        border: 0;
+    }
+    /**** Product Page ****/
+    
+    .seeker_img {
+        margin-top: 30px;
+    }
+    .product_banner {
+        float: left;
+        margin-top: 74px;
+        width: 100%;
+        height: 406px;
+        overflow: hidden;
+    }
+    .specification_innr {
+        margin-top: 0;
+    }
+    #jssor_1 {
+        height: 100% !important;
+    }
+    .specification {
+        margin-top: 50px;
+    }
+    .specification_innr {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .specification_bx {
+        margin-top: 20px;
+        width: 96%;
+    }
+    .spec1 h4,
+    .spec1 p {
+        font-size: 15px;
+    }
+    .product_btm_lft .nav-tabs li a {
+        padding: 16px 18px;
+    }
+    .tab-content,
+    .tab-content p {
+        font-size: 14px;
+    }
+    .sail_range_heading h2 {
+        font-size: 30px;
+        padding: 21px;
+    }
+    .product_sail_range ul li a {
+        padding: 0 21px;
+    }
+    .product_sail_range ul li {
+        font-size: 15px;
+    }
+    #gallery li,
+    #layouts li,
+    #video li {
+        height: 200px;
+    }
+    .tytul {
+        font-size: 18px !important;
+    }
+    #equipment h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .cust_equp,
+    .cust_equp1 {
+        margin-bottom: 20px;
+    }
+    #video li iframe {
+        height: 100% !important;
+    }
+    .req_quote_btn,
+    .info_req_btn {
+        padding: 10px;
+    }
+    .specification_innr h2 {
+        font-size: 30px;
+    }
+    .btm_pro_list img {
+        height: 49px;
+    }
+    .product_btm_lft {
+        margin-top: 30px;
+    }
+    .product_btm_sec {
+        padding-bottom: 50px;
+    }
+    .product_video_thumb {
+        height: 250px;
+        margin-top: 40px;
+    }
+    .product_video_thumb iframe {
+        height: 100% !important;
+    }
+    .product_btm_lft .nav-tabs li {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    #click-menu {
+        right: 19px;
+    }
+    .ftr_rght .hire_sec h2 {
+        font-size: 70px;
+        line-height: 60px;
+    }
+    .ftr_rght .hire_sec h2 span.hire_blk {
+        top: 3px;
+    }
+    /**** Yacht Charter Page ****/
+    
+    .charter_overlay h4 {
+        font-size: 18px;
+    }
+    .charter_overlay h4 i {
+        margin-top: 1px;
+    }
+    /**** Sailing Yacht Page ****/
+    
+    .sail_range_innr .sail_range_list a img {
+        max-height: 144px;
+    }
+    .info_req,
+    .quote_req {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 11px;
+    }
+    /**** Home Page Start ****/
+    
+    .power_range_innr ul li {
+        width: 49%;
+        margin-bottom: 30px;
+    }
+    .power_range_innr ul li:nth-child(odd) {
+        margin-right: 2%;
+    }
+    .power_range_innr ul li:nth-child(even) {
+        margin-right: 0;
+    }
+    /**** News Section ****/
+    
+    .owl-item .item {
+        margin: 0 auto auto;
+    }
+    .news_outer_bx {
+        top: 19px;
+        width: 300px;
+    }
+    .owl-carousel .owl-wrapper-outer {
+        padding-bottom: 50px;
+    }
+    /**** About Page ****/
+    
+    .video_title_main h1 {
+        font-size: 18px;
+    }
+    .vidd_test_desi > p {
+        font-size: 15px;
+    }
+    .video_main_sec {
+        min-height: 620px;
+    }
+    .abt_reality_tab .carousel-indicators li {
+        font-size: 11px;
+        padding: 0 15px;
+    }
+    /**** Sailing Yacht PopUp ****/
+    
+    #myModal .modal-dialog {
+        margin-top: 162px;
+    }
+    /**** Blog Page ****/
+    
+    .blog_cntnt {
+        width: 79%;
+    }
+    .blog_descp h2 {
+        font-size: 17px;
+    }
+    .blog_descp p,
+    .post_sec p a {
+        font-size: 14px;
+    }
+    /**** Product Page ****/
+    
+    .product_banner {
+        height: 300px;
+    }
+    .spec1 h4,
+    .spec1 p {
+        font-size: 14px;
+    }
+    .product_btm_lft .nav-tabs li a {
+        font-size: 14px;
+        padding: 13px 17px;
+    }
+    .seeker_img {
+        margin-top: 20px;
+    }
+    .sail_range_heading h2 {
+        font-size: 26px;
+    }
+    .product_video_thumb {
+        height: 200px;
+    }
+    .product_btm_lft .nav-tabs li a{line-height: 19px;}
+}
+
+@media (max-width: 767px) {
+    /**** Header Section ****/
+    
+    .header_contact p {
+        font-size: 12px;
+    }
+    .header_contact i {
+        font-size: 13px;
+    }
+    .header_contact i {
+        padding-top: 12px;
+    }
+    #mainNav,
+    #mainNav.affix {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #click-menu {
+        top: 18px !important;
+    }
+    #responsive-menu {
+        width: 270px !important;
+    }
+    #click-menu {
+        right: 11px;
+    }
+    /**** Contact Section ****/
+    
+    .contact_banner,
+    .charter_banner,
+    .banner {
+        margin-top: 63px;
+    }
+    .contact_innr {
+        padding-top: 30px;
+    }
+    .cntct_frm h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .cntct_frm p {
+        width: 100%;
+    }
+    .cntct_frm input[type="submit"] {
+        font-size: 18px;
+        padding: 11px;
+    }
+    .cntct_frm p.wdth_full1 .ajax-loader {
+        top: 12px;
+    }
+    div.wpcf7-validation-errors,
+    .wpcf7-mail-sent-ok {
+        font-size: 13px;
+    }
+    .cntct_frm {
+        padding: 15px;
+    }
+    .cntct_map {
+        height: 200px;
+    }
+    /**** Footer Section ****/
+    
+    .ftr_lft {
+        background: rgba(0, 0, 0, 0.6);
+        margin-top: 0;
+        padding: 15px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    footer {
+        padding: 30px 0;
+    }
+    .ftr_rght {
+        width: 100%;
+    }
+    .ftr_rght .hire_sec h2 span.hire_blk {
+        font-size: 23px;
+        top: 4px;
+    }
+    .ftr_rght .hire_sec h2 {
+        color: #fff;
+        font-size: 70px;
+        line-height: 60px;
+    }
+    .subscribe_form {
+        margin-top: 20px;
+    }
+    .footer_social {
+        margin-top: 40px;
+    }
+    .footer_nav {
+        margin-top: 30px;
+    }
+    .ftr_rght .hire_sec .hire_form input[type="submit"] {
+        font-size: 14px;
+        height: auto;
+    }
+    .ftr_adrs p {
+        font-size: 13px;
+    }
+    .ftr_adrs p br {
+        display: none;
+    }
+    .ftr_rght .hire_sec h2 {
+        padding-left: 106px;
+    }
+    /*.ftr_rght .hire_sec {
+        padding-bottom: 50px;
+    }
+    .hire_sec div.wpcf7-validation-errors,
+    .hire_sec .wpcf7-mail-sent-ok {
+        position: absolute;
+    }*/
+    /**** Yacht Charter Page ****/
+    
+    .charter_list {
+        margin-top: 20px;
+    }
+    .power_yacht_innr h3,
+    .cstm_yacht h3,
+    .team_innr h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .charter_list_innr ul li {
+        margin-bottom: 30px;
+    }
+    /**** Sailboat Brokerage Page ****/
+    
+    .power_yacht {
+        padding-bottom: 30px;
+        padding-top: 20px;
+    }
+    .yacht_sec {
+        margin-top: 15px;
+    }
+    .yacht_sec {
+        padding: 15px;
+    }
+    /**** Sailing Yacht Page ****/
+    
+    .cstm_yacht {
+        padding-top: 20px;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .cstm_yacht .sail_range_innr ul li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .cstm_yacht .ycht_bx + .ycht_bx {
+        margin-top: 20px;
+    }
+    .cstm_yacht .ycht_bx {
+        padding-bottom: 20px;
+    }
+    .sail_range_innr > ul > li {
+        width: 49%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .sail_range_innr > ul > li:nth-child(odd) {
+        margin-right: 2%;
+    }
+    .sail_range_innr > ul > li:nth-child(even) {
+        margin-right: 0;
+    }
+    .sail_range_innr .sail_range_list a img {
+        max-height: 140px;
+    }
+    .sail_range_innr .ycht_bx .sail_range_list a img {
+        max-height: none;
+    }
+    .sail_range_innr .sail_range_list h3 {
+        font-size: 18px;
+        min-height: auto;
+        max-height: none;
+    }
+    .sail_range_innr .sail_range_list p {
+        min-height: none;
+        margin-bottom: 15px;
+    }
+    .sail_range_innr ul li:last-child {
+        margin-bottom: 0;
+    }
+    .sail_range_innr .sail_range_img {
+        margin-bottom: 15px;
+    }
+    /**** Home Page Start ****/
+    
+    .home_caption {
+        display: none;
+    }
+    .sail_range_innr > h2 {
+        font-size: 29px;
+        margin-right: 2px;
+    }
+    .sail_range_innr > h2 > span.sail_blk {
+        font-size: 20px;
+        right: 89%;
+        bottom: 6px;
+    }
+    .sail_range_innr .sail_range_list p {
+        min-height: 0;
+    }
+    .sail_range_innr ul li {
+        margin-top: 0;
+    }
+    /**** Power Range ****/
+    
+    .power_range {
+        margin-top: 0px;
+    }
+    .power_range_innr h2 span.sail_blk {
+        right: 82%;
+    }
+    .power_range_innr .power_range_list h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    /**** News Section ****/
+    
+    .sail_range.news_sec {
+        margin-top: 0px;
+    }
+    .owl-carousel {
+        margin-top: 20px;
+    }
+    .news_outer_bx {
+        width: 88%;
+    }
+    .owl-item .item {
+        margin: 0px auto auto;
+    }
+    .news_innr_bx h2 {
+        font-size: 17px;
+        margin-bottom: 17px;
+        line-height: 24px;
+    }
+    .news_outer_bx {
+        bottom: 25px;
+    }
+    .owl-next::before,
+    .owl-prev::before {
+        font-size: 18px;
+        line-height: 33px;
+        margin-left: 14px;
+    }
+    .owl-prev,
+    .owl-next {
+        height: 35px;
+        width: 35px;
+    }
+    .see_more_btn {
+        font-size: 16px;
+        min-width: 150px;
+        padding: 6px;
+        margin-top: 0;
+    }
+    .sail_range.news_sec {
+        margin-bottom: 40px;
+    }
+    .news_slider > img {
+        padding-left: 30px;
+        margin-top: 10px;
+        display: none;
+    }
+    .info_req,
+    .quote_req {
+        font-size: 13px;
+    }
+    .news_slider {
+        float: left;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        position: static;
+        padding-bottom: 0;
+    }
+    .news_outer_bx {
+        float: left;
+        height: auto;
+        min-height: 0;
+        position: static;
+        width: 100%;
+    }
+    .owl-buttons {
+        margin-top: 20px;
+    }
+    #loading_sec {
+        float: left;
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+    }
+    #loading_sec > img {
+        margin-top: -25px;
+        width: 28px;
+    }
+    /**** About Page ****/
+    
+    .abt_dream {
+        padding: 30px 0;
+    }
+    .abt_sec h5 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .abt_tp {
+        margin-top: 30px;
+    }
+    .abt_tp_lft p {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .abt_dream h3 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .abt_dream h5 {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .abt_dream p {
+        font-size: 15px;
+    }
+    .video_main_sec {
+        padding-top: 30px;
+    }
+    .video_main_innr h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .holder_bu {
+        margin-bottom: 20px !important;
+    }
+    .vidd_test_desi > p {
+        margin-top: 20px;
+    }
+    .video_title_main a {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .video_main_sec {
+        height: 100%;
+        padding-bottom: 25px;
+    }
+    .holder_bu_center.holder_bu img {
+        width: 100%;
+    }
+    .abt_reality_tab .carousel-indicators li {
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .abt_reality_tab .carousel-indicators li:first-child {
+        margin-top: 0;
+    }
+    .abt_reality_tab .carousel-indicators {
+        top: -75px;
+        width: 100%;
+    }
+    .abt_reality_tab .carousel-control {
+        top: -77px;
+        display: none;
+    }
+    .tb_bx_cntnt p {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    .abt_reality {
+        padding-bottom: 30px;
+    }
+    .abt_tp {
+        padding: 15px;
+    }
+    .abt_dream h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .abt_reality_tab .carousel-inner .item {
+        padding: 15px;
+        margin-top: 15px;
+    }
+    /**** Sailing Yacht PopUp ****/
+    
+    #myModal .modal-dialog {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #myModal h4 {
+        font-size: 24px;
+    }
+    .modal-content {
+        padding-top: 5px;
+    }
+    #myModal .close {
+        margin-top: 0;
+        font-size: 25px;
+    }
+    #myModal .modal-body {
+        padding: 0 15px 20px;
+    }
+    #myModal .modal-body p {
+        width: 100%;
+    }
+    .modal-body p:nth-child(2n) {
+        margin-right: 0;
+    }
+    .cstm_quote1 {
+        display: inline-block;
+        float: none;
+        width: 100%;
+    }
+    #myModal .modal-body input[type="submit"] {
+        margin-top: 0;
+    }
+    .cstm_quote1 .ajax-loader {
+        top: 12px;
+    }
+    #myModal div.wpcf7-validation-errors,
+    #myModal div.wpcf7-mail-sent-ok {
+        font-size: 12px !important;
+    }
+    /**** Privacy Policy Page ****/
+    
+    .privacy_policy {
+        padding: 20px 0;
+    }
+    .privacy_policy_innr h2 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+    .privacy_policy_innr p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .privacy_policy_innr h4 {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+    /**** Privacy Policy Page ****/
+    
+    .privacy_policy_innr ul li {
+        font-size: 14px;
+    }
+    /**** Team Inner Page ****/
+    
+    .team_innr_sec {
+        padding: 20px 0;
+    }
+    .team_innr > a {
+        width: 250px;
+    }
+    .team_innr h4 {
+        font-size: 20px;
+    }
+    .team_innr h5 {
+        font-size: 15px;
+    }
+    .team_innr p {
+        font-size: 14px;
+    }
+    /**** Blog Page ****/
+    
+    .blog_sec {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog_innr h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .blog_lft {
+        width: 100%;
+    }
+    .blog_date span {
+        font-size: 13px;
+    }
+    .blog_cntnt {
+        width: 75%;
+        margin-top: 70px;
+    }
+    .blog_date {
+        margin-top: 70px;
+    }
+    .blog_descp h2 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .blog_descp ul li a,
+    .blog_descp ul li {
+        margin: 0;
+    }
+    .blog_rght {
+        margin-top: 30px;
+        width: 100%;
+    }
+    .blog_search_bx {
+        margin-bottom: 25px;
+    }
+    .blog_img {
+        margin-bottom: 15px;
+    }
+    .owl-carousel .owl-wrapper-outer {
+        padding-bottom: 0;
+    }
+    .load_more {
+        height: 35px;
+        width: 35px;
+        margin-left: 25px;
+        border: 0;
+    }
+    .load_more_btn {
+        height: 35px;
+    }
+    .load_more i {
+        text-align: center !important;
+        font-size: 35px;
+    }
+    h2.no_record {
+        font-size: 20px;
+        padding: 11px;
+    }
+    .post_thumb {
+        width: 77px;
+    }
+    .blog_search_bx input[type="text"] {
+        padding: 0 15px;
+    }
+    #searchform > button {
+        right: 9px;
+        top: 9px;
+    }
+    .blog_search_bx i{right:15px;}
+    /**** Error Page ****/
+    
+    .error_section h1 {
+        font-size: 27px;
+    }
+    .error_section p {
+        font-size: 18px;
+        margin-bottom: 0px;
+        line-height: 20px;
+    }
+    .error_btm_cntnt p {
+        font-size: 16px;
+    }
+    .error_btm_cntnt h1 {
+        font-size: 135px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .error_btm_cntnt {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .error-404 {
+        padding-bottom: 30px;
+        padding-top: 15px;
+    }
+    /**** Product Page ****/
+    
+    .product_banner {
+        margin-top: 63px;
+    }
+    .jssort11,
+    .jssora02l,
+    .jssora02r {
+        display: none;
+    }
+    .product_banner {
+        height: 190px;
+    }
+    .specification {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .specification_innr h2 {
+        font-size: 24px;
+    }
+    .specification_innr {
+        padding-top: 20px;
+    }
+    .spec1 {
+        width: 100% !important;
+    }
+    .product_btm_lft,
+    .product_btm_rght {
+        width: 100%;
+    }
+    .product_btm_lft .nav-tabs li a {
+        line-height: 16px;
+    }
+    .product_btm_lft .nav-tabs li {
+        margin-right: 6px;
+    }
+    .product_btm_lft .tab-content {
+        margin-top: 30px;
+    }
+    .product_btm_rght {
+        margin-top: 30px;
+    }
+    .sail_range_heading h2 {
+        font-size: 24px;
+        padding: 15px;
+    }
+    .product_sail_range ul li a {
+        padding: 0 15px;
+    }
+    .btm_pro_list img {
+        height: 69px;
+    }
+    .req_quote_btn,
+    .info_req_btn {
+        padding: 8px;
+        font-size: 15px;
+    }
+    .seeker_img {
+        margin-top: 0;
+    }
+    .product_video_thumb {
+        height: 300px;
+    }
+    .abt_reality_tab .carousel-indicators li:last-child {
+        padding-left: 0;
+    }
+    .no_rcrd {
+        font-size: 16px;
+    }
+    .cntct_frm p i {
+        font-size: 16px;
+        vertical-align: baseline;
+    }
+    .cntct_frm p i.fa-mobile {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 479px) {
+    /**** Header Section ****/
+    
+    .header_contact {
+        margin-right: 42px;
+    }
+    .header_contact i {
+        font-size: 12px;
+    }
+    .header_contact p {
+        font-size: 10px;
+    }
+    .logo,
+    #mainNav.affix .logo {
+        width: 96px;
+    }
+    #click-menu {
+        top: 15px !important;
+    }
+    /**** Contact Page ****/
+    
+    .cntct_frm p label {
+        font-size: 14px;
+    }
+    .contact_banner,
+    .charter_banner,
+    .banner {
+        margin-top: 56px;
+    }
+    /**** Footer Section ****/
+    
+    .footer_nav ul li,
+    .ftr_lft p.copyright {
+        font-size: 10px;
+    }
+    /**** Yacht Charter Page ****/
+    
+    .charter_list_innr ul li {
+        margin-right: 0;
+        width: 100%;
+    }
+    /**** Home Page ****/
+    
+    .sail_range_innr .sail_range_list a img {
+        max-height: none;
+    }
+    .owl-item .item {
+        margin: 0px auto auto;
+    }
+    .news_innr_bx ul li {
+        font-size: 13px;
+        line-height: 14px;
+        margin-right: 18px;
+        padding-right: 18px;
+    }
+    .power_range {
+        margin-top: 20px;
+    }
+    .sail_range.news_sec {
+        margin-top: 30px;
+    }
+    /**** Sailing Yacht Page ****/
+    
+    .sail_range_innr > ul > li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    /**** About Page ****/
+    
+    .abt_sec h5 {
+        font-size: 14px;
+    }
+    .vidd_test_desi > p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .abt_reality_tab .carousel-indicators li {
+        line-height: 18px;
+    }
+    .tb_bx_cntnt h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+    /**** Blog Page ****/
+    
+    .blog_cntnt {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+        text-align: left;
+    }
+    .blog_descp h2 {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .blog_bx {
+        text-align: center;
+    }
+    .blog_date {
+        display: inline-block;
+        float: none;
+        margin-top: 40px;
+    }
+    .blog_bx:first-child .blog_cntnt {
+        margin-top: 15px;
+    }
+    .blog_bx::after {
+        display: none;
+    }
+    .blog_descp ul li {
+        font-size: 10px;
+    }
+    .load_more {
+        font-size: 24px;
+        height: 30px;
+        width: 30px;
+        margin-left: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .load_more_btn {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #loading_sec > img {
+        margin-top: 10px;
+    }
+    .load_more {
+        left: 0;
+        right: 0;
+        margin: 30px auto auto;
+    }
+    .browse_tag ul li {
+        margin-right: 0;
+        width: 100%;
+        padding: 10px;
+    }
+    /**** Error Section Page ****/
+    
+    .error_section p {
+        font-size: 14px;
+    }
+    /**** Product Page ****/
+    
+    .product_banner {
+        margin-top: 56px;
+    }
+    .product_banner {
+        height: 126px;
+    }
+    .spec1 h4,
+    .spec1 p {
+        font-size: 12px;
+    }
+    .product_btm_lft .nav-tabs li::after {
+        background: transparent;
+    }
+    .product_btm_lft .nav-tabs li {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    .spec1 p {
+        border-right: 0;
+    }
+    .product_btm_lft .nav-tabs li {
+        margin-right: 0;
+        width: 100%;
+    }
+    .product_btm_lft .nav-tabs li:last-child,
+    #video li:last-child,
+    #layouts li:last-child {
+        margin-bottom: 0;
+    }
+    #gallery li,
+    .tab-content li {
+        width: 100%;
+        margin-right: 0;
+    }
+    .product_btm_lft .tab-content {
+        margin-top: 10px;
+    }
+    .req_quote_btn,
+    .info_req_btn {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .cust_equp {
+        width: 100%;
+        margin-left: 0;
+    }
+    #video li,
+    #layouts li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .product_sail_range ul li {
+        font-size: 14px;
+    }
+    .product_video_thumb {
+        height: 200px;
+    }
+    .sail_range_innr .sail_range_list a img {
+        max-height: none;
+    }
+    .abt_reality_tab .carousel-indicators li:nth-child(2) {
+        padding-left: 0;
+    }
+    .abt_reality_tab .carousel-indicators li:last-child {
+        padding-left: 10px;
+    }
+    .contact_banner > img {
+        min-height: 100px;
+    }
+}

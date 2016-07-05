@@ -1,0 +1,44 @@
+.delete_row{
+       background-color: rgb(217, 83, 79) !important;
+    border-color: rgb(212, 63, 58) !important;
+    color: rgb(255, 255, 255) !important;
+    border: 0px !important;
+    border-radius:4px !important;
+    box-shadow: none !important;
+    padding: 6px 24px !important;
+    height: auto !important;
+     transition: all 0.5s ease 0s;
+     -webkit-transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease 0s;
+}
+.delete_row:hover{
+    background-color: rgb(201, 48, 44) !important;
+    border-color: rgb(172, 41, 37) !important;
+    color: rgb(255, 255, 255) !important;
+}
+#myplugin_new_field_1{
+    height: 34px !important;
+    border-radius:4px !important;
+    padding: 6px 12px !important;
+    margin: 0 10px;
+}
+.wp-admin select{
+    height: 34px;
+}
+.meta-box-section{
+    margin-bottom: 10px !important;
+}
+.meta-box-n.unregistered {
+    margin-bottom: 10px!important;
+}
+.meta-box-n.registered {
+    margin-bottom: 10px!important;
+}
+.add_row{
+    background-color: rgb(51, 122, 183) !important;
+    border-color: rgb(46, 109, 164) !important;
+    color: rgb(255, 255, 255) !important;
+     padding: 6px 24px !important;
+    height: auto !important;
+    box-shadow: none !important;
+}

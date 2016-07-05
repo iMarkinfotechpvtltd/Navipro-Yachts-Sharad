@@ -1,0 +1,104 @@
+
+#wrapper_bu {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+
+}
+.txt_Center { margin: 50% 0% 0% 20% }
+
+.txt_h1 { font-size: 2em }
+
+.holder_bu { cursor: pointer;width:30% !important; height: auto !important;margin-top: 40px !important;}
+.holder_bu a img{width:100%;}
+.holder_bu_awayL1 {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+  width: 10%;
+  height: 40%;
+
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_awayL2 {
+  position: absolute;
+  top: 35%;
+  left: 0%;
+  width: 10%;
+  height: 30%;
+
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_center {
+  position: absolute;
+  top: 5%;
+
+
+      height: 40%;
+ left: 30%;
+  width: 40% !important;margin-top: 0 !important;
+
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_awayR1 {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  width: 10%;
+  height: 40%;
+
+  -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+
+.holder_bu_awayR2 {
+  position: absolute;
+  top: 35%;
+  left: 90%;
+  width: 10%;
+  height: 30%;
+ -webkit-transition: width 1s, height 1s, top 1s, left 1s;
+  -moz-transition: width 1s, height 1s, top 1s, left 1s;
+  -o-transition: width 1s, height 1s, top 1s, left 1s;
+  -ms-transition: width 1s, height 1s, top 1s, left 1s;
+  transition: width 1s, height 1s, top 1s, left 1s
+}
+@media (max-width:767px){.holder_bu{width:100% !important;}
+   
+#wrapper_bu {
+  float: left;
+  position: static;
+  text-align: center;
+  width: 100%;
+}
+.holder_bu {
+  max-width: 300px;
+  width: 100% !important;
+}
+.holder_bu_center, .holder_bu_awayR1, .holder_bu_awayL1 {
+  float: none;
+  margin: 10px auto !important;
+  position: static;
+  top: 0;
+}
+    .video_title_main{position: static;bottom:0;margin:15px 0;width:100%;}
+}

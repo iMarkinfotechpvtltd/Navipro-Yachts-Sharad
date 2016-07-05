@@ -1,0 +1,26 @@
+[2016-06-06 09:36:28] ERROR: Form 274 > MailChimp API error: List_RoleEmailMember: abc@abc.com is an invalid email address and cannot be imported.
+[2016-06-06 10:10:19] ERROR: Form 274 > MailChimp API error: Error connecting to MailChimp. Operation timed out after 10001 milliseconds with 0 bytes received
+[2016-06-06 10:32:37] ERROR: Form 274 > MailChimp API error: Invalid MailChimp List ID: 
+[2016-06-06 10:32:59] ERROR: Form 274 > MailChimp API error: Invalid MailChimp List ID: 
+[2016-06-06 10:33:24] ERROR: Form 274 > MailChimp API error: Invalid MailChimp List ID: 
+[2016-06-06 11:33:37] ERROR: Form 274 > MailChimp API error: Error connecting to MailChimp. Operation timed out after 10001 milliseconds with 0 bytes received
+[2016-06-13 08:31:51] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-13 14:32:54] ERROR: Form 274 > MailChimp API error: Error connecting to MailChimp. Operation timed out after 10001 milliseconds with 0 bytes received
+[2016-06-20 07:19:31] ERROR: Form 274 > MailChimp API error: List_RoleEmailMember: abc@gmail.cim is an invalid email address and cannot be imported.
+[2016-06-20 07:21:47] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 07:22:04] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 11:32:33] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 11:47:30] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 11:47:51] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 11:48:32] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 11:49:44] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 11:50:00] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 11:50:30] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 11:51:10] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 11:51:51] ERROR: Form 274 > MailChimp API error: List_RoleEmailMember: abc@gmail.com is an invalid email address and cannot be imported.
+[2016-06-20 11:54:05] ERROR: Form 274 > MailChimp API error: List_RoleEmailMember: abc@gmail.com is an invalid email address and cannot be imported.
+[2016-06-20 11:58:10] ERROR: Form 274 > MailChimp API error: List_RoleEmailMember: abc@gmail.com is an invalid email address and cannot be imported.
+[2016-06-20 11:59:55] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 12:02:25] WARNING: Form 274 > mandeep@imarkinfotech.com is already subscribed to the selected list(s)
+[2016-06-20 13:03:19] ERROR: Form 274 > MailChimp API error: List_RoleEmailMember: test@test.com is an invalid email address and cannot be imported.
+[2016-06-20 13:03:32] ERROR: Form 274 > MailChimp API error: List_RoleEmailMember: test@test.com is an invalid email address and cannot be imported.
