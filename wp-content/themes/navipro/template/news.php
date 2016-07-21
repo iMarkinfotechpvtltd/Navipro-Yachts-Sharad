@@ -17,6 +17,9 @@ function pagination()
 	var page_val=jQuery('#page_val').val();
 	var page_val1=parseInt(page_val)+1;
 	
+	// alert(page_val);
+	// alert(page_val1);
+	
 	jQuery('#loading_sec').show();
 	jQuery.ajax({
 	type: "GET",

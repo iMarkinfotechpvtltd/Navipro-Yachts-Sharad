@@ -169,11 +169,11 @@
 					<li class="wow fadeInUp  animated" data-wow-duration="1000ms" data-wow-delay="500ms">
 					 <div class="power_range_list">
 					  <div class="power_range_img">
-			<a href="#" title=""><img src="<?php echo z_taxonomy_image_url($term->term_id); ?>"></a>  
+			<a href="<?php echo get_category_link( $term->term_id ); ?>" title=""><img src="<?php echo z_taxonomy_image_url($term->term_id,'home_power_image_size'); ?>"></a>  
 						<div class="power_range_overlay">
 						 <div class="display-table">
 						  <div class="display-table-cell">     
-						   <img src="../images/small_yacht.png" alt="small_yacht"> 
+						   <a href="<?php echo get_category_link( $term->term_id ); ?>"><img src="../images/small_yacht.png" alt="small_yacht"></a> 
 						   <a href="<?php echo get_category_link( $term->term_id ); ?>" title="">Read More</a>   
 						  </div>
 						  </div>     

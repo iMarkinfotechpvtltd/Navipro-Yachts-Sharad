@@ -18,9 +18,23 @@
 
 get_header(); 
 
-
+global $post;
 ?>
-
+<style>
+.Formsubject {
+    display: none;
+}
+</style>
+<script>
+jQuery(document).ready(function() 
+{
+	 jQuery('.quote_req').click(function(){
+     var product_name= jQuery(this).find('#post_title').val();  
+                            
+		jQuery("input[name='Formsubject']").val(product_name);
+	});	 
+});
+</script>
 <section class="contact_banner">
             <img src="<?php echo esc_url(get_template_directory_uri());?>/images/contact_bnr.jpg" alt="contact_banner">
 </section>
@@ -34,11 +48,9 @@ get_header();
           <h3 class="wow fadeInUp  animated" data-wow-duration="1000ms" data-wow-delay="300ms"><?php single_cat_title(); ?></h3> 
            <ul>
 		   <?php 
-		    global $post;
-
+		   
 		   while ( have_posts() ) : the_post();
 		  
-			
 		   ?>
             <li class="wow fadeInUp  animated" data-wow-duration="1000ms" data-wow-delay="300ms">
              <div class="sail_range_list">
@@ -49,9 +61,10 @@ get_header();
 					<p><?php $content = $post->post_content; echo mb_strimwidth($content, 0, 100);?></p>
 				 <?php //echo $post->post_content;?>  
               <a href="<?php the_permalink();?>" title="" class="info_req">Info Request</a>
-              <a href="#" title="" class="quote_req" data-toggle="modal" data-target="#myModal">Request Quote</a>    
+              <a href="#" title="" class="quote_req" data-toggle="modal" data-target="#myModal">Request Quote<input type="hidden" id="post_title" value="<?php echo $post->post_title;?>" /></a>    
              </div>
             </li>
+			
 			<?php endwhile; wp_reset_query(); ?>
             
            </ul> 

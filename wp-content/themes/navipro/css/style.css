@@ -2489,7 +2489,7 @@ div.wpcf7-validation-errors {
 
 #jssor_1 {
     width: 100% !important;
-    height: 751px !important;
+    /*height: 751px !important;*/
 }
 
 .jssort11 {
@@ -2529,7 +2529,7 @@ div.wpcf7-validation-errors {
     width: 1600px;
     border: 2px solid #e7e7e7;
     height: auto;
-    margin: -50px auto auto;
+    margin: 50px auto auto;
     background: #fff;
     text-align: center;
     padding-top: 36px;
@@ -2551,15 +2551,16 @@ div.wpcf7-validation-errors {
     height: auto;
     margin-top: 39px;
     width: 1440px;
-    text-align: left;
+    text-align: left;height: 219px;overflow: auto;
 }
 
 .spec1 {
     text-align: left;
     background: #fcfcfc;
     width: 33.33%;
-    height: 75px;
-    floaT: left;
+    height: 62px;
+    float: left;
+	 border-bottom: 1px solid #ebe8e8;
 }
 
 .spec1 h4 {
@@ -2567,11 +2568,11 @@ div.wpcf7-validation-errors {
     color: #005579;
     font-family: 'futura_ltbook';
     text-align: left;
-    width: 50%;
+    width: 40%;
     display: table-cell;
-    padding: 16px;
+    padding: 10px 16px;
     border-right: 1px solid #ebe8e8;
-    border-bottom: 1px solid #ebe8e8;
+   
     vertical-align: middle;
 }
 
@@ -2581,14 +2582,14 @@ div.wpcf7-validation-errors {
 }
 
 .spec1 p {
-    font-size: 15px;
+    font-size: 14px;
     color: #000000;
     font-family: 'futura_ltbook';
     text-align: left;
-    width: 50%;
+    width: 60%;
     display: table-cell;
-    padding: 16px;
-    border-bottom: 1px solid #ebe8e8;
+    padding: 10px 16px;
+  
     border-right: 1px solid #ebe8e8;
     vertical-align: middle;
 }
@@ -2761,7 +2762,7 @@ div.wpcf7-validation-errors {
     background: #fff;
     text-align: center;
     
-    padding: 15px;height:357px;overflow:hidden;
+    padding: 15px;height:auto;overflow:hidden;
 }
 
 .product_btm_rght {
@@ -2876,15 +2877,7 @@ div.wpcf7-validation-errors {
     margin-bottom: 15px;
     margin-top: 15px;
 }
-/*.tab-content li{
-    display: inline;
-    float: left;
-    list-style: outside none none;
-    margin-right: 15px;
-    width: 48%;
-    margin-bottom: 2%;
-    height: 300px;
-}*/
+
 
 .tab-content ul {
     margin-left: 0px;
@@ -2912,7 +2905,7 @@ div.wpcf7-validation-errors {
     float: left;
 }
 
-#gallery li {
+#gallery li,#layouts li {
     border: 2px solid #eeeeee;
     display: inline;
     float: left;
@@ -2925,7 +2918,7 @@ div.wpcf7-validation-errors {
     width: 200px;
 }
 
-#gallery li img {
+#gallery li img ,#layouts li img{
     width: 100%;
 }
 
@@ -3728,7 +3721,7 @@ h2.no_record {
 */
 
 #layouts img {
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
@@ -3826,6 +3819,8 @@ h2.no_record {
     .logo {
         width: 115px;
     }
+    .specification_innr{width:90%;}
+    .specification_bx{width:95%;}
 }
 
 @media (max-width: 1499px) {
@@ -4125,11 +4120,11 @@ h2.no_record {
     /****  Product Page ****/
     
     #jssor_1 {
-        height: 520px !important;
+       /* height: 520px !important;*/
     }
     .specification_innr {
         width: 90%;
-        margin-top: -95px;
+     
         padding-bottom: 35px;
     }
     .specification_innr h2 {
@@ -4142,7 +4137,7 @@ h2.no_record {
         width: 50% !important;
     }
     .specification_bx {
-        height: auto;
+      
         margin-top: 30px;
     }
     .spec_tp + .spec_tp + .spec_tp h4,
@@ -4887,6 +4882,8 @@ h2.no_record {
         margin-top: 20px;
         width: 96%;
     }
+	.spec1{width:100% !important; height:auto;}
+	.spec1 h4{padding:10px;}
     .spec1 h4,
     .spec1 p {
         font-size: 15px;
@@ -5048,7 +5045,7 @@ h2.no_record {
     }
     .spec1 h4,
     .spec1 p {
-        font-size: 14px;
+        font-size: 13px;
     }
     .product_btm_lft .nav-tabs li a {
         font-size: 14px;
@@ -5884,7 +5881,7 @@ h2.no_record {
         margin-bottom: 0;
     }
     #gallery li,
-    .tab-content li {
+    .tab-content li,#layouts li {
         width: 100%;
         margin-right: 0;
     }
@@ -5904,7 +5901,7 @@ h2.no_record {
     #layouts li {
         width: 100%;
         margin-right: 0;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
     .product_sail_range ul li {
         font-size: 14px;

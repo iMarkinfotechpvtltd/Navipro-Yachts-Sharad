@@ -241,7 +241,14 @@ global $post;
 						{
 							$small_image_url1 = wp_get_attachment_image_src($val11, 'full');
 					?>
-							<li><img data-u="image" src="<?php echo $small_image_url1[0]; ?>"></li>	 
+							<li><div class="display-table">
+								<div class="display-table-cell">
+									<a class="fancybox" href="<?php echo $small_image_url1[0];?>" data-fancybox-group="layouts">
+										<img data-u="image" src="<?php echo $small_image_url1[0]; ?>">	 
+									</a>
+								</div>
+							</div>
+						</li>
 					<?php
 						}//end of foreach loop.
 					}//end of if condition.

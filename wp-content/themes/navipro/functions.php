@@ -431,6 +431,8 @@ add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
 
 add_image_size('logo_size',161,62);
 
+add_image_size('home_power_image_size',335,254);
+
 add_image_size('news_image_size',622,485);
 
 add_image_size('about_slider_image_size',638,476);
